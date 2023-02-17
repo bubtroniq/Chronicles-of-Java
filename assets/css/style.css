@@ -164,10 +164,10 @@ h1{
     color: gold;
 }
 .hero-image {
-    height: 100vh;
+    height: 110vh;
     color: white;
     font-size: 30px;
-    background-image: url("/assets/images/RhinoP.png");
+    background-image: url("/assets/images/hero-img.jpg");
     background-repeat: no-repeat;
     background-position: left;
     background-size: cover;
@@ -175,7 +175,8 @@ h1{
 }
 
 .hero-text {
-    margin: 150px 0 200px 80px;
+    /* margin: 150px 0 200px 80px; */
+    height: 100vh;
 }
 
 .container {
@@ -198,8 +199,9 @@ h1{
     font-weight: 300;
     font-size: 35px;
     padding-top: 5px;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 60px;
+    border-radius: 6px;
 }
 
 .buttonA {
@@ -211,8 +213,9 @@ h1{
     font-weight: 300;
     font-size: 35px;
     padding-top: 5px;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 60px;
+    border-radius: 6px;
 }
 
 
@@ -250,7 +253,7 @@ h1{
     text-align: center;
     align-items: center;
     justify-content: center;
-    height: 30vh;
+    height: 100%;
     background-color: #f0d080;
     color: #000;
 }
@@ -266,10 +269,10 @@ h1{
 
 /* Gallery */
 
-.gallery {
+/* .gallery {
     height: 35rem;
     border: 1px solid #000;
-}
+} */
 .gallery img{
     width: 600px;
 }
@@ -280,7 +283,7 @@ h2{
     font-size: 2.2rem;
 }
 h3{
-    color: whitesmoke;
+    color: rgb(179, 29, 29);
     font-size: 2.2rem;
 }
 h4{
@@ -322,8 +325,8 @@ p{
 }
 
 /* Video of the Day */
-.video-of-day {
-    display: flex;
+#video-to-embed {
+    height: 40em;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -341,6 +344,10 @@ p{
 @media screen and (max-width: 500px) {
 
     nav ul {
+        flex-direction: column;
+    }
+
+    .achievements {
         flex-direction: column;
     }
 }
