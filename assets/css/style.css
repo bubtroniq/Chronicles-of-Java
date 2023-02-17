@@ -1,5 +1,5 @@
 /*----------------------------------------------------- Fonts */
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab:wght@400;700&display=swap');
 
 /*---------------------------------------------- Basic styling */
 * {
@@ -10,8 +10,18 @@
 }
 
 body {
-    font-family: "Roboto Slab",sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto Slab', serif;
+}
+
 
 /*----------------------------------------------------- Header */
 
@@ -25,9 +35,7 @@ body {
 /*----------------------------------------------------- Section */
 
 section {
-    /* height: 500px; */
     background-color: rgb(247, 243, 243);
-    /* border: solid black 1px; */
 }
 
 /* nav ul {
@@ -40,7 +48,7 @@ section {
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 15px;
+    padding: 15px;
 }
 
 ul {
