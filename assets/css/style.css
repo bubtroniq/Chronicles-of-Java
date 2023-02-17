@@ -13,6 +13,12 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
+body,
+main,
+footer {
+    overflow-x: hidden;
+}
+
 h1,
 h2,
 h3,
@@ -107,26 +113,21 @@ li {
 /*----------------------------------------------------- Footer */
 
 .media-buttons {
-    text-align: center;
-    margin: 0 auto;
+    display: flex;
+    align-items: center;
     justify-content: center;
- }
- 
- .media-buttons > li {
-     display: inline;
- }
- 
- .media-buttons i {
-     font-size: 4em;
-     /* margin: 1%; */
+    margin: auto;
+}
+
+.media-buttons i {
+     font-size: 2em;
      padding: 1em;
      color: rgb(126, 41, 26);
- }
+}
 
- footer p {
+footer p {
     text-align: center;
- }
- 
+}
 
 /*------------------------------------------------------- Main */
 
@@ -356,5 +357,9 @@ p{
 
     .projects-title {
         margin-bottom: 1rem;
+    }
+
+    .media-buttons i {
+        font-size: 3rem;
     }
 }
