@@ -43,13 +43,13 @@ h6 {
 
 /*----------------------------------------------------- Header */
 
-/*----------------------------------------------------- Section */
-
-section {
-    background-color: var(--main-white-shade-color);
+.header {
+    height: 7rem;
+    background-image: url("/assets/images/RhinoP.png");
+    background-attachment: fixed;
+    background-position: left;
+    background-size: cover;
 }
-
-/* -- Navbar -- km */
 
 nav {
     display: flex;
@@ -79,15 +79,15 @@ li {
     font-size: 1.4rem;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     color: var(--accent-gold-shade-color);
 }
 
-.nav-img{
-    width: 100px;
-    height: 100px;
-    margin-top: 5px;
+.nav-img {
+    width: 20vw;
+    max-width: 5rem;
 }
+
 
 /*----------------------------------------------------- Footer */
 
@@ -115,8 +115,17 @@ footer p {
 
 /*------------------------------------------------------- Main */
 
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    background-color: var(--main-white-shade-color);
+}
+
 /* -- Hero image -- km */
-h1{
+h1 {
     color: var(--accent-gold-color);
 }
 
@@ -124,15 +133,11 @@ h1{
     height: 110vh;
     color: var(--main-white-color);
     font-size: 30px;
-    background-image: url("/assets/images/hero-img.jpg");
+    background-image: url("/assets/images/RhinoP.png");
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-position: left;
     background-size: cover;
-
-}
-
-.hero-text {
-    height: 100vh;
 }
 
 .container {
@@ -150,7 +155,6 @@ h1{
 .buttonD {
     width: 200px;
     height: 60px;
-    
     text-align: center;
     font-weight: 300;
     font-size: 35px;
@@ -170,7 +174,7 @@ h1{
 
 .buttonA a,
 .buttonD a {
-    color: black;
+    color: var(--main-black-color);
 }
 
 .what-we-do {
