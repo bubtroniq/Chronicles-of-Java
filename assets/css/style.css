@@ -70,6 +70,7 @@ li {
     text-decoration: none;
     padding: .3em .7em;
     flex-shrink: 1;
+    margin-top: 20px;
 }
 
 .nav-link {
@@ -90,6 +91,7 @@ li {
 .nav-img{
     width: 100px;
     height: 100px;
+    margin-top: 5px;
 }
 /* -- Get-Involved -- */
 #get-involved {
