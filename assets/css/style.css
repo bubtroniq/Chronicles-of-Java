@@ -9,6 +9,10 @@
     list-style: none;
 }
 
+body {
+    font-family: "Roboto Slab",sans-serif;
+}
+
 /*----------------------------------------------------- Header */
 
 /* .header {
@@ -21,9 +25,9 @@
 /*----------------------------------------------------- Section */
 
 section {
-    height: 500px;
-    background-color: white;
-    border: solid black 1px;
+    /* height: 500px; */
+    background-color: rgb(247, 243, 243);
+    /* border: solid black 1px; */
 }
 
 /* nav ul {
@@ -97,6 +101,7 @@ li {
 .media-buttons {
     text-align: center;
     margin: 0 auto;
+    justify-content: center;
  }
  
  .media-buttons > li {
@@ -104,10 +109,14 @@ li {
  }
  
  .media-buttons i {
-     font-size: 150%;
-     margin: 1%;
-     padding: 5%;
+     font-size: 4em;
+     /* margin: 1%; */
+     padding: 1em;
      color: rgb(126, 41, 26);
+ }
+
+ footer p {
+    text-align: center;
  }
  
 
@@ -197,6 +206,55 @@ h1{
     margin-left: 60px;
 }
 
+
+.what-we-do {
+    text-align: center;
+    padding: 1em 2em;
+    background-color: #e4e0e0;
+    
+}
+
+.what-we-do h2 {
+    font-size: 3em;
+    font-weight: 800;
+    margin: 1em 2em;
+}
+
+.what-we-do p {
+    font-size: 1.7em;
+    font-weight: 600;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.impact {
+    display: inline-block;
+    margin: 2em;
+    padding: 10px 15px;
+    text-decoration: none;
+    background-color: orange;
+    border-radius: 6px;
+}
+
+.achievements {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    background-color: #f0d080;
+    color: #000;
+}
+
+.achievements div {
+    padding: 1.5em;
+}
+
+.achievements div h3 {
+    font-size: 3em;
+    padding: .5em;
+}
+
 /* Gallery */
 
 .gallery {
@@ -250,6 +308,8 @@ p{
     flex-direction: column;
     justify-content: center;
     gap: 1rem;
+    text-align: center;
+
 }
 
 /* Video of the Day */
