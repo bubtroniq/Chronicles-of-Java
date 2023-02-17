@@ -9,7 +9,7 @@ body{
     display: flex;
     width: 100%;
     min-height: 100vh;
-    background-color: lightgrey;
+    background-color: rgb(221, 155, 14);
 }
 .container{
     top: 150px;
@@ -30,6 +30,7 @@ body{
     height: 70px;
     width: 70px;
     border-radius: 50px;
+   
   }
   .icon{
     position: absolute;
