@@ -5,48 +5,101 @@ Save the Rhinos is a static website designed to encourage the spreading of infor
 ![image](https://user-images.githubusercontent.com/104646542/219870446-892b3ffb-5bfc-478b-97fd-caac55b2da15.png)
 
 Visit us here at: https://save-the-rhinos-bubtroniq.vercel.app/
-## UX
 
+# Table of Contents
 
+[User Experience (UX)](#user-experience-ux)
+- [Colour Scheme](#colour-scheme)
+- [Typography](#typography)
+
+[User Stories](#user-stories)
+- [New Site Users](#new-site-users)
+- [Returning Site Users](#returning-site-users)
+- [Frequent Site Users](#frequent-site-users)
+
+[Wireframes](#wireframes)
+
+[Features](#features)
+- [Existing Features](#existing-features)
+
+[Tools & Technologies Used](#tools--technologies-used)
+
+[Testing](#testing)
+- [Code Validation](#code-validation)
+- [Functionality Testing](#functionality-testing)
+- [Performance Testing](#performance-testing)
+
+[Deployment](#deployment)
+
+[Credits](#credits)
+- [Content](#content)
+- [Media](#media)
+
+[Acknowledgements](#acknowledgements)
+
+## User Experience (UX)
 
 ### Colour Scheme
 
+The main colours are black and white. To grab the user's attention, yellow and red are used on particular elements such as buttons and navigation menu items.
 
+We've used CSS `:root` variables to easily update the global colour scheme by changing only one value, instead of everywhere in the CSS file.
+
+```css
+:root {
+    --main-black-color: #000;
+    --main-white-color: #fff;
+    --main-white-shade-color: #F7F3F3;
+    --main-white-shade2-color: #e4e0e0;
+    --accent-gold-color: #F7B21F;
+    --accent-gold-shade-color: #C78900;
+    --accent-gold-shade2-color: #f0d080;
+    --accent-red-color: #e73d3d;
+    --accent-red-shade-color: #C51426;
+}
+```
 
 ### Typography
 
+- [Montserrat](https://fonts.google.com/specimen/Montserrat) is the main font used throughout the whole website with Sans Serif as the fallback font in case the font isn't imported into the browser correctly. Montserrat has a highly readable body typeface and a variety of weights and styles.
+
+- [Roboto Slab](https://fonts.google.com/specimen/Roboto+Slab) is used for the headings.
+
+- [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the social media icons in the footer.
 
 ## User Stories
 
-
-
 ### New Site Users
 
+| ID | Story | Implemented page/section |
+| --- | --- | ---|
+| [#22](https://github.com/bubtroniq/Chronicles-of-Java/issues/22) | As a First Time Visitor, I want to easily understand the main purpose of the site so that I can quickly decide whether I want to explore it more. | Homepage |
+| [#23](https://github.com/bubtroniq/Chronicles-of-Java/issues/23) |As a First Time Visitor, I want to easily navigate the sections so that I can easily find the content. | Navigation |
+| [#47](https://github.com/bubtroniq/Chronicles-of-Java/issues/47) | As a First Time Visitor, I want to see the organisation's projects so that I can decide whether I want to be involved. | About page |
+| [#48](https://github.com/bubtroniq/Chronicles-of-Java/issues/48) |As a First Time Visitor, I want to check their social media so that I can determine whether they are trustworthy. | Footer |
 
 ### Returning Site Users
 
+| ID | Story | Implemented page/section |
+| --- | --- | ---|
+| [#24](https://github.com/bubtroniq/Chronicles-of-Java/issues/24) | As a returning visitor, I want to find possible ways how to donate so I can easily donate. | Homepage |
+| [#25](https://github.com/bubtroniq/Chronicles-of-Java/issues/25) | As a returning visitor, I want to know how the funds are used so that I can donate confidently. | Homepage|
 
-### Site Admin
+### Frequent Site Users
 
-
+| ID | Story | Implemented page/section |
+| --- | --- | ---|
+| [#49](https://github.com/bubtroniq/Chronicles-of-Java/issues/49) | As a donator, I want to know about new activities with the organisation so that I can decide whether I donate more. | Homepage |
 
 ## Wireframes
 
-
-
 ### Mobile Wireframes
-
-
 
 ### Tablet Wireframes
 
-
 ### Desktop Wireframes
 
-
 ## Features
-
-
 
 ### Existing Features
 
@@ -128,9 +181,38 @@ https://jshint.com/
 
 ## Testing
 
-https://validator.w3.org/ For HTML validation
-https://jigsaw.w3.org/css-validator/ For CSS validation
-https://jshint.com/ for JavaScript validation
+### Code Validation
+
+- HTML Validation
+
+    - No errors or warnings were found when passing through the [W3C Markup Validator](https://validator.w3.org/).
+
+        ![HTML validation](docs/testing/validation-html.png)
+
+- CSS Validation
+
+    - No errors or warnings were found when passing through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
+
+        <!-- !TODO: Need screenshot -->
+
+- JS Validation
+
+    - No errors or warnings were found when passing through [JSHint](https://jshint.com/).
+
+    - `app.js`
+        ![JS validation](docs/testing/validation-js_app.png)
+    - `index-script.js`
+        ![JS validation](docs/testing/validation-js_index.png)
+    - `script.js`
+        ![JS validation](docs/testing/validation-js_script.png)
+
+### Functionality Testing
+
+### Performance Testing
+
+- We have measured the performance, accessibility, best practices and SEO using [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) in Chrome DevTools in incognito mode.
+
+![Lighthouse report](docs/testing/lighthouse.png)
 
 ## Deployment
 
@@ -181,5 +263,3 @@ https://www.savetherhino.org/about-us/our-impact/
 #### Karl Moran
 #### Razvan Joitescu
 #### Steve Docherty
-
-
