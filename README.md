@@ -11,7 +11,7 @@ Visit us here at: https://save-the-rhinos-bubtroniq.vercel.app/
 
 ### Colour Scheme
 
-
+![Save Rhinos Colour Scheme](images/RhinoColour.pdf)
 
 ### Typography
 
@@ -32,7 +32,7 @@ Visit us here at: https://save-the-rhinos-bubtroniq.vercel.app/
 
 ## Wireframes
 
-
+![Wireframe](images/RhinoWireframe.pdf)
 
 ### Mobile Wireframes
 
