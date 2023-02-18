@@ -57,6 +57,10 @@ nav li {
     margin-left: 3%;
 }
 
+.what-box li {
+    margin: 1rem auto;
+}
+
 ul {
     list-style-type: none;
 }
