@@ -1,70 +1,40 @@
 # Save the Rhinos
 
+Save the Rhinos is a static website designed to encourage the spreading of information over the issue of Rhino endangerment and extinction, which is a pressing issue in the world of ecology and conservation. it provides information about the species and provides its users the opportunity to support the cause through: donation, adoption and affiliation in the animal welfare community. 
 
-[Live page-Save the Rhinos](https://save-the-rhinos-bubtroniq.vercel.app/)
+![image](https://user-images.githubusercontent.com/104646542/219870446-892b3ffb-5bfc-478b-97fd-caac55b2da15.png)
 
-In this section, you will include a few paragraphs providing an overview of your project.
-Essentially, this part is your "sales pitch".
-
-At this stage, you should have a name for your project so use it!
-Don't introduce the project as a "portfolio project" for the diploma.
-
-In this section, describe what the project hopes to accomplish, who it is intended to target, and how it will be useful to the target audience.
-
-Consider adding a mockup image using the "Am I Responsive" website.
-Here's your deployed site as an example:
-https://ui.dev/amiresponsive?url=https://bubtroniq.github.io/mtb_trails-in-romania
-
-Screenshots for the README and testing should not be inside of `assets/` or `static/` image folders.
-(reminder: `assets/` and `static/` are for files used on the live site, not documentation)
-Consider adding a new folder called `documentation`, and add the amiresponsive screenshot inside of that folder.
-To add the image into your README, use this format:
-(assuming you have a new folder called `documentation` with an image called "mockup.png")
-
-![screenshot](documentation/mockup.png)
-
-Note: Markdown files (.md) should not contain HTML elements like `img`, `br`, `div`, `a`, etc, only Markdown formatting.
-Find out more about using Markdown elements here:
-https://pandao.github.io/editor.md/en.html
-
-<br>
+Visit us here at: https://save-the-rhinos-bubtroniq.vercel.app/
 
 # Table of Contents
 
 [User Experience (UX)](#user-experience-ux)
-  - [User Stories](#user-stories)
-  - [Design](#design)
-  - [Wireframes](#wireframes)
+- [Colour Scheme](#colour-scheme)
+- [Typography](#typography)
 
-<br>
+[User Stories](#user-stories)
+- [New Site Users](#new-site-users)
+- [Returning Site Users](#returning-site-users)
+- [Frequent Site Users](#frequent-site-users)
 
-# User Experience (UX)
+[Wireframes](#wireframes)
 
-## User Stories
+[Features](#features)
+- [Existing Features](#existing-features)
 
-### New Site Users
+[Tools & Technologies Used](#tools--technologies-used)
 
-| ID | Story | Implemented page/section |
-| --- | --- | ---|
-| [#22](https://github.com/bubtroniq/Chronicles-of-Java/issues/22) | As a First Time Visitor, I want to easily understand the main purpose of the site so that I can quickly decide whether I want to explore it more. | Homepage |
-| [#23](https://github.com/bubtroniq/Chronicles-of-Java/issues/23) |As a First Time Visitor, I want to easily navigate the sections so that I can easily find the content. | Navigation |
-| [#47](https://github.com/bubtroniq/Chronicles-of-Java/issues/47) | As a First Time Visitor, I want to see the organisation's projects so that I can decide whether I want to be involved. | About page |
-| [#48](https://github.com/bubtroniq/Chronicles-of-Java/issues/48) |As a First Time Visitor, I want to check their social media so that I can determine whether they are trustworthy. | Footer |
+[Testing](#testing)
 
-### Returning Site Users
+[Deployment](#deployment)
 
-| ID | Story | Implemented page/section |
-| --- | --- | ---|
-| [#24](https://github.com/bubtroniq/Chronicles-of-Java/issues/24) | As a returning visitor, I want to find possible ways how to donate so I can easily donate. | Homepage |
-| [#25](https://github.com/bubtroniq/Chronicles-of-Java/issues/25) | As a returning visitor, I want to know how the funds are used so that I can donate confidently. | Homepage|
+[Credits](#credits)
+- [Content](#content)
+- [Media](#media)
 
-### Frequent Site Users
+[Acknowledgements](#acknowledgements)
 
-| ID | Story | Implemented page/section |
-| --- | --- | ---|
-| [#49](https://github.com/bubtroniq/Chronicles-of-Java/issues/49) | As a donator, I want to know about new activities with the organisation so that I can decide whether I donate more. | Homepage |
-
-## Design
+## User Experience (UX)
 
 ### Colour Scheme
 
@@ -94,233 +64,172 @@ We've used CSS `:root` variables to easily update the global colour scheme by ch
 
 - [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the social media icons in the footer.
 
+## User Stories
+
+### New Site Users
+
+| ID | Story | Implemented page/section |
+| --- | --- | ---|
+| [#22](https://github.com/bubtroniq/Chronicles-of-Java/issues/22) | As a First Time Visitor, I want to easily understand the main purpose of the site so that I can quickly decide whether I want to explore it more. | Homepage |
+| [#23](https://github.com/bubtroniq/Chronicles-of-Java/issues/23) |As a First Time Visitor, I want to easily navigate the sections so that I can easily find the content. | Navigation |
+| [#47](https://github.com/bubtroniq/Chronicles-of-Java/issues/47) | As a First Time Visitor, I want to see the organisation's projects so that I can decide whether I want to be involved. | About page |
+| [#48](https://github.com/bubtroniq/Chronicles-of-Java/issues/48) |As a First Time Visitor, I want to check their social media so that I can determine whether they are trustworthy. | Footer |
+
+### Returning Site Users
+
+| ID | Story | Implemented page/section |
+| --- | --- | ---|
+| [#24](https://github.com/bubtroniq/Chronicles-of-Java/issues/24) | As a returning visitor, I want to find possible ways how to donate so I can easily donate. | Homepage |
+| [#25](https://github.com/bubtroniq/Chronicles-of-Java/issues/25) | As a returning visitor, I want to know how the funds are used so that I can donate confidently. | Homepage|
+
+### Frequent Site Users
+
+| ID | Story | Implemented page/section |
+| --- | --- | ---|
+| [#49](https://github.com/bubtroniq/Chronicles-of-Java/issues/49) | As a donator, I want to know about new activities with the organisation so that I can decide whether I donate more. | Homepage |
+
 ## Wireframes
-
-In this section, display your wireframe screenshots using a Markdown `table`.
-
-Instructions on how to do Markdown `tables` start on line #213 on this site: https://pandao.github.io/editor.md/en.html
-
-To follow best practice, wireframes were developed for mobile, tablet, and desktop sizes.
-I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wireframes.
 
 ### Mobile Wireframes
 
-| Size | Site Page | Screenshot |
-| --- | --- | --- |
-| Mobile | Home Page | ![screenshot](documentation/wireframes/mobile-home.png) |
-| Mobile | About Page | ![screenshot](documentation/wireframes/mobile-about.png) |
-| Mobile | Contact Page | ![screenshot](documentation/wireframes/mobile-contact.png) |
-| x | x | repeat for all remaining mobile wireframes |
-
 ### Tablet Wireframes
-
-| Size | Site Page | Screenshot |
-| --- | --- | --- |
-| Tablet | Home Page | ![screenshot](documentation/wireframes/tablet-home.png) |
-| Tablet | About Page | ![screenshot](documentation/wireframes/tablet-about.png) |
-| Tablet | Contact Page | ![screenshot](documentation/wireframes/tablet-contact.png) |
-| x | x | repeat for all remaining tablet wireframes |
 
 ### Desktop Wireframes
 
-| Size | Site Page | Screenshot |
-| --- | --- | --- |
-| Desktop | Home Page | ![screenshot](documentation/wireframes/desktop-home.png) |
-| Desktop | About Page | ![screenshot](documentation/wireframes/desktop-about.png) |
-| Desktop | Contact Page | ![screenshot](documentation/wireframes/desktop-contact.png) |
-| x | x | repeat for all remaining desktop wireframes |
-
 ## Features
-
-In this section, you should go over the different parts of your project,
-and describe each in a sentence or so.
-
-You will need to explain what value each of the features provides for the user,
-focusing on who this website is for, what it is that they want to achieve,
-and how your project is the best way to help them achieve these things.
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-IMPORTANT: Remember to always include a screenshot of each individual feature!
 
 ### Existing Features
 
 - **Feature #1**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+The logo
 
-![screenshot](documentation/feature01.png)
+![image](https://user-images.githubusercontent.com/104646542/219871762-a462d228-49df-4ebb-901f-34484f039f82.png)
 
 - **Feature #2**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+The nav bar. It is fully responsive and has four sections. First, "Get involved", which links to further down the page and repeats the donate button which is spread over the site. It has a title as well as some information on rhino endangerment, with an encouraging messaging to get involved with the protection of their species. secondly, the "Gallery", which has a slideshow depiting pictures of rhinos. It has its own dedicated page which has been coded into the workspace. Thirdly, an "About" page. This also has its own separate page and links to an informational section on who Save the Rhinos are and another section on what they do. This is followed by an embedded link that takes you to a live cam on youtube of rhinos in a protected sanctuary. Lastly on the nav bar, there is the "Donate" page, which links externally to https://www.savetherhino.org/get-involved/donate, an already exisiting page for "Save the Rhino" with the option to donate to an actual charity and thus adding a real contributive user experience. 
 
-![screenshot](documentation/feature02.png)
+   ![image](https://user-images.githubusercontent.com/104646542/219871639-f9d6e416-57f1-4b47-8f93-f49cf337f09c.png)
 
 - **Feature #3**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+Main body of the home page with responsive buttons. This consists of another informational section on rhino endangerment and details the species' statistics over the last two centuries and the critical reduction in their existence. It details the reasons behind this and then has two responsive buttons underneath: "Adopt"- which links to an already existing charity site by WWF- https://support.wwf.org.uk/adopt-a-rhino?utm_source=Google-Generic&utm_medium=PaidSearch-Generic&pc=AVN014003&&&gclid=Cj0KCQiA6LyfBhC3ARIsAG4gkF9rfKmk8KUSL1ptkpAeJwKIzE7-rkFusdw8i76nsELK94NwSwlQB4AaAla6EALw_wcB&gclsrc=aw.ds. It provides the user with an actual oppportinity to adopt a rhino and help the cause, once again adding a real contributive user experience. The other responsive buttons is "Donate" which links again to the same site as in the nav bar. 
 
-![screenshot](documentation/feature03.png)
 
-Repeat as necessary for as many features as your site contains.
+![image](https://user-images.githubusercontent.com/104646542/219871833-384fdb32-0a41-48a3-94b4-4aeb93d7d4ee.png)
 
-Hint: the more, the merrier!
+- **Feature #4**
 
-### Future Features
+Charity information. This setion details all that the charity are doing to aid the cause. It includes another encouraging message to stand together and save the species with suport and donations. Then, some info on the outstanding achievements that have already been attained, followed by a responsive "Read more about our impact" button, that takes you externally to https://www.savetherhino.org/about-us/our-impact/ so you can read further information on how they are helping. lastly in this section of the page, there are some statistics on: how much money was raised, how kuch land is being patrolled to protect rhinos and how many african canine units were supported in boosting their awareness of rhino endangerment issues.
 
-Do you have additional ideas that you'd like to include on your project in the future?
-Fantastic! List them here!
-It's always great to have plans for future improvements!
-Consider adding any helpful links or notes to help remind you in the future, if you revisit the project in a couple years.
+![image](https://user-images.githubusercontent.com/104646542/219872156-a0b81e9f-2ac1-4987-8a0a-058f170c86c1.png)
 
-- Cool new feature #1
-    - Any additional notes about this feature.
-- Cool new feature #2
-    - Any additional notes about this feature.
-- Cool new feature #3
-    - Any additional notes about this feature.
+- **Feature #5**
+
+"Get involved" section. This is where the button on the nav bar directs to on the main page. It has more information on the cause and once again, a link to the donate button. it also contains a list of projects that they are involved in: protecting rhinos, reducing illegal trade and engaging communities.
+
+![image](https://user-images.githubusercontent.com/104646542/219872281-f8863233-26b4-4fcb-adc4-abb0c3b8d4ea.png)
+
+- **Feature #6**
+Video of the day- needs coding finished then can add
+
+- **Feature #7**
+
+Footer. This sections has links to social media pages for: Facebook, Twiiter, Youtube and instagram. It also contains: a terms and conditions page, privacy policy and copyright image for the hackathon project. 
+
+![image](https://user-images.githubusercontent.com/104646542/219872365-8b73fafb-2f15-4721-b79c-fe15f4fe656f.png)
+
+- **Feature #8**
+
+The "Gallery". This takes you to an external page when clicked on in the nav bar. It contains a gallery of 5 rhino images and also has a drop down menu to the left to take you back to the other pages.
+
+![image](https://user-images.githubusercontent.com/104646542/219872633-2a35b91f-0300-4e24-945e-06f532d293ea.png)
+
+- **Feature #9**
+
+About page- needs coding finished then can add
+
+- **Feature #10**
+
+The "Donate" link. This is the last part of the nav bar and takes you externally to https://www.savetherhino.org/get-involved/donate  
+
+![image](https://user-images.githubusercontent.com/104646542/219872785-38537c8a-7624-4b37-bba9-114bbacb9380.png)
+
+
+- **Feature #11**
+
+The "Adopt" link. This is part of the main home page and is where the ywllow donate button takes you to. It externally links to https://support.wwf.org.uk/adopt-a-rhino?utm_source=Google-Generic&utm_medium=PaidSearch-Generic&pc=AVN014003&&&gclid=Cj0KCQiA6LyfBhC3ARIsAG4gkF9rfKmk8KUSL1ptkpAeJwKIzE7-rkFusdw8i76nsELK94NwSwlQB4AaAla6EALw_wcB&gclsrc=aw.ds 
+
+![image](https://user-images.githubusercontent.com/104646542/219872833-99c843d8-ff89-42e3-87a3-11e8e45c80b0.png)
+
+
 
 ## Tools & Technologies Used
 
-In this section, you should explain the various tools and technologies used to develop the project.
-Make sure to put a link (where applicable) to the source, and explain what each was used for.
-Some examples have been provided, but this is just a sample only, your project might've used others.
-Feel free to delete any unused items below as necessary.
-
-- [HTML](https://en.wikipedia.org/wiki/HTML) used for the main site content.
-- [CSS](https://en.wikipedia.org/wiki/CSS) used for the main site design and layout.
-- [CSS :root variables](https://www.w3schools.com/css/css3_variables.asp) used for reusable styles throughout the site.
-- [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) and/or [CSS Grid](https://www.w3schools.com/css/css_grid.asp) used for an enhanced responsive layout.
-- [Bootstrap](https://getbootstrap.com) used as the front-end CSS framework for modern responsiveness and pre-built components.
-- [Materialize](https://materializecss.com) used as the front-end CSS framework for modern responsiveness and pre-built components.
-- [JavaScript](https://www.javascript.com) used for user interaction on the site.
-- [Python](https://www.python.org) used as the back-end programming language.
-- [Git](https://git-scm.com) used for version control. (`git add`, `git commit`, `git push`)
-- [GitHub](https://github.com) used for secure online code storage.
-- [GitHub Pages](https://pages.github.com) used for hosting the deployed front-end site.
-- [Gitpod](https://gitpod.io) used as a cloud-based IDE for development.
-- [Tim Nelson](https://traveltimn.github.io/readme-builder) used to help generate the Markdown files.
-- [Flask](https://flask.palletsprojects.com) used as the Python framework for the site.
-- [Django](https://www.djangoproject.com) used as the Python framework for the site.
-- [MongoDB](https://www.mongodb.com) used as the non-relational database management with Flask.
-- [SQLAlchemy](https://www.sqlalchemy.org) used as the relational database management with Flask.
-- [PostgreSQL](https://www.postgresql.org) used as the relational database management.
-- [ElephantSQL](https://www.elephantsql.com) used as the Postgres database.
-- [Heroku](https://www.heroku.com) used for hosting the deployed back-end site.
-- [Cloudinary](https://cloudinary.com) used for online static file storage.
-- [Stripe](https://stripe.com) used for online secure payments of ecommerce products/services.
-- [AWS S3](https://aws.amazon.com/s3) used for online static file storage.
+https://techsini.com/
+https://github.com/
+https://www.gitpod.io/
+https://www.vercel.com/
+https://www.youtube.com/
+https://validator.w3.org/ 
+https://jigsaw.w3.org/css-validator/
+https://jshint.com/
 
 ## Testing
 
-For all testing, please refer to the [TESTING.md](TESTING.md) file.
+https://validator.w3.org/ For HTML validation
+https://jigsaw.w3.org/css-validator/ For CSS validation
+https://jshint.com/ for JavaScript validation
 
 ## Deployment
 
-The site was deployed to GitHub Pages. The steps to deploy are as follows:
-- In the [GitHub repository](https://github.com/bubtroniq/mtb_trails-in-romania), navigate to the Settings tab
-- From the source section drop-down menu, select the **Main** Branch, then click "Save".
-- The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-
-The live link can be found [here](https://bubtroniq.github.io/mtb_trails-in-romania)
+This site was deployed via vercel and can be found live at: https://save-the-rhinos-bubtroniq.vercel.app/ 
 
 ### Local Deployment
 
-This project can be cloned or forked in order to make a local copy on your own system.
+
 
 #### Cloning
 
-You can clone the repository by following these steps:
 
-1. Go to the [GitHub repository](https://github.com/bubtroniq/mtb_trails-in-romania)
-2. Locate the Code button above the list of files and click it
-3. Select if you prefer to clone using HTTPS, SSH, or GitHub CLI and click the copy button to copy the URL to your clipboard
-4. Open Git Bash or Terminal
-5. Change the current working directory to the one where you want the cloned directory
-6. In your IDE Terminal, type the following command to clone my repository:
-	- `git clone https://github.com/bubtroniq/mtb_trails-in-romania.git`
-7. Press Enter to create your local clone.
-
-Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/bubtroniq/mtb_trails-in-romania)
-
-Please note that in order to directly open the project in Gitpod, you need to have the browser extension installed.
-A tutorial on how to do that can be found [here](https://www.gitpod.io/docs/configure/user-settings/browser-extension).
 
 #### Forking
 
-By forking the GitHub Repository, we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original owner's repository.
-You can fork this repository by using the following steps:
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/bubtroniq/mtb_trails-in-romania)
-2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
-3. Once clicked, you should now have a copy of the original repository in your own GitHub account!
 
 ### Local VS Deployment
 
-Use this space to discuss any differences between the local version you've developed, and the live deployment site on GitHub Pages.
+
 
 ## Credits
 
-In this section you need to reference where you got your content, media, and extra help from.
-It is common practice to use code from other repositories and tutorials,
-however, it is important to be very specific about these sources to avoid plagiarism.
+
 
 ### Content
 
-Use this space to provide attribution links to any borrowed code snippets, elements, or resources.
-A few examples have been provided below to give you some ideas.
+https://www.savetherhino.org/get-involved/donate
 
-Ideally, you should provide an actual link to every resource used, not just a generic link to the main site!
+https://support.wwf.org.uk/adopt-a-rhino?utm_source=Google-Generic&utm_medium=PaidSearch-Generic&pc=AVN014003&&&gclid=Cj0KCQiA6LyfBhC3ARIsAG4gkF9rfKmk8KUSL1ptkpAeJwKIzE7-rkFusdw8i76nsELK94NwSwlQB4AaAla6EALw_wcB&gclsrc=aw.ds
 
-| Source | Location | Notes |
-| --- | --- | --- |
-| [Tim Nelson](https://traveltimn.github.io/readme-builder) | README and TESTING | tool to help generate the Markdown files |
-| [Chris Beams](https://chris.beams.io/posts/git-commit) | version control | "How to Write a Git Commit Message" |
-| [W3Schools](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp) | entire site | responsive HTML/CSS/JS navbar |
-| [W3Schools](https://www.w3schools.com/howto/howto_css_modals.asp) | contact page | interactive pop-up (modal) |
-| [W3Schools](https://www.w3schools.com/css/css3_variables.asp) | entire site | how to use CSS :root variables |
-| [Flexbox Froggy](https://flexboxfroggy.com/) | entire site | modern responsive layouts |
-| [Grid Garden](https://cssgridgarden.com) | entire site | modern responsive layouts |
-| [StackOverflow](https://stackoverflow.com/a/2450976) | quiz page | Fisher-Yates/Knuth shuffle in JS |
-| [YouTube](https://www.youtube.com/watch?v=YL1F4dCUlLc) | leaderboard | using `localStorage()` in JS for high scores |
-| [YouTube](https://www.youtube.com/watch?v=u51Zjlnui4Y) | PP3 terminal | tutorial for adding color to the Python terminal |
-| [strftime](https://strftime.org) | CRUD functionality | helpful tool to format date/time from string |
-| [WhiteNoise](http://whitenoise.evans.io) | entire site | hosting static files on Heroku temporarily |
+https://www.savetherhino.org/about-us/our-impact/
 
 ### Media
 
-Use this space to provide attribution links to any images, videos, or audio files borrowed from online.
-A few examples have been provided below to give you some ideas.
 
-If you're the owner (or a close acquaintance) of all media files, then make sure to specify this.
-Let the assessors know that you have explicit rights to use the media files within your project.
 
-Ideally, you should provide an actual link to every media file used, not just a generic link to the main site!
-The list below is by no means exhaustive. Within the Code Institute Slack community, you can find more "free media" links
-by sending yourself the following command: `!freemedia`.
+## Acknowledgements
 
-| Source | Location | Type | Notes |
-| --- | --- | --- | --- |
-| [Pexels](https://www.pexels.com) | entire site | image | favicon on all pages |
-| [Lorem Picsum](https://picsum.photos) | home page | image | hero image background |
-| [Unsplash](https://unsplash.com) | product page | image | sample of fake products |
-| [Pixabay](https://pixabay.com) | gallery page | image | group of photos for gallery |
-| [Wallhere](https://wallhere.com) | footer | image | background wallpaper image in the footer |
-| [This Person Does Not Exist](https://thispersondoesnotexist.com) | testimonials | image | headshots of fake testimonial images |
-| [Audio Micro](https://www.audiomicro.com/free-sound-effects) | game page | audio | free audio files to generate the game sounds |
-| [Videvo](https://www.videvo.net/) | home page | video | background video on the hero section |
-| [TinyPNG](https://tinypng.com) | entire site | image | tool for image compression |
+#### Anthony_Hacklead
+#### Code Institute
+#### The hackathon team(#2):
 
-### Acknowledgements
+#### Sejung Kwak
+#### Killol Sevak
+#### Freda Toal
+#### Adam Keane
+#### Karl Moran
+#### Razvan Joitescu
+#### Steve Docherty
 
-Use this space to provide attribution to any supports that helped, encouraged, or supported you throughout the development stages of this project.
-A few examples have been provided below to give you some ideas.
 
-- I would like to thank my Code Institute mentor, [John/Jane Doe](https://github.com/username) for their support throughout the development of this project.
-- I would like to thank the [Code Institute](https://codeinstitute.net) tutor team for their assistance with troubleshooting and debugging some project issues.
-- I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support; it kept me going during periods of self doubt and imposter syndrome.
-- I would like to thank my spouse/partner (John/Jane), for believing in me, and allowing me to make this transition into software development.
-- I would like to thank my employer, for supporting me in my career development change towards becoming a software developer.
