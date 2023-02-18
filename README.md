@@ -43,7 +43,7 @@ Visit us here at: https://save-the-rhinos-bubtroniq.vercel.app/
 
 ### Tablet Wireframes
 
-![Wireframe](asssets/images/IpadView.png)
+![Wireframe](assets/images/IpadView.png)
 ### Desktop Wireframes
 
 
