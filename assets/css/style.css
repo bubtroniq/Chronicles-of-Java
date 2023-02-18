@@ -100,48 +100,7 @@ li {
     outline: 0;
 }
 
-@media only screen and (max-width: 1000px){
-    .hamburger {
-        display: block;
-        border: 0;
-        background-color: transparent;
-        color: white;
-        font-size: 30px;
-        margin: 20px;
-        align-self: flex-end;
-    }
 
-    ul {
-        display: none;
-        margin: 0px;
-        background-color: #F7B21F;
-    }
-
-    ul.show {
-        display: block;
-    }
-
-    nav {
-        display: flex;
-        flex-direction: column-reverse;
-        background-color: #F7B21F;
-    }
-
-    .nav-img {
-        display: none;
-    }
-
-    .nav-link {
-        text-decoration: none;
-        color: white;
-        font-size: 1rem;
-        font-size: 1.7rem;
-        font-weight: 800;
-    }
-
-    
-
-}
 
 
 /*----------------------------------------------------- Footer */
@@ -229,7 +188,7 @@ h1 {
     margin-top: 10px;
     margin-left: 160px;
     border-radius: 6px;
-    
+
 }
 
 .buttonA {
@@ -300,27 +259,27 @@ h1 {
 
 /* Gallery */
 
-.gallery img{
+.gallery img {
     width: 600px;
 }
 
 /* Get involved */
-h2{
+h2 {
     color: var(--accent-gold-color);
     font-size: 2.2rem;
 }
 
-h3{
+h3 {
     color: var(--accent-red-color);
     font-size: 2.2rem;
 }
 
-h4{
+h4 {
     color: var(--accent-gold-color);
     font-size: 2rem;
 }
 
-p{
+p {
     color: var(--main-white-shade-color);
     font-size: large;
 }
@@ -389,6 +348,50 @@ p{
     .achievements {
         flex-direction: column;
     }
+
+    .hamburger {
+        display: block;
+        border: 0;
+        background-color: transparent;
+        color: var(--accent-gold-color);
+        font-size: 30px;
+        margin: 20px;
+        align-self: flex-end;
+    }
+
+    ul {
+        display: none;
+        margin: 0px;
+        background-color: transparent;
+    }
+
+    ul.show {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: transparent;
+    }
+
+    .nav-img {
+        display: none;
+    }
+
+    .nav-link {
+        text-decoration: none;
+        color: var(--accent-gold-color);
+        font-size: 1rem;
+        font-size: 1.7rem;
+        font-weight: 800;
+    }
+
+    #nav-list {
+        margin-left: auto;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -446,7 +449,7 @@ p{
         flex-direction: row;
     }
 
-    .projects > * {
+    .projects>* {
         flex: 1;
     }
 
