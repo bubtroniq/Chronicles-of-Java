@@ -23,12 +23,13 @@
     <header class="header">
         <nav>
                 <div><img src="assets/images/Rhinotwo.avif" class="nav-img" alt="logo-img"></div>
-                <ul>
+                <ul id="nav-list">
                     <li><a class="nav-link" href="#cta">Get Involved</a></li>
                     <li><a class="nav-link" href="gallery.html">Gallery</a></li>
                     <li><a class="nav-link" href="about.html">About</a></li>
                     <li><a class="nav-link" href="https://www.savetherhino.org/get-involved/donate" target="_blank">Donate</a></li>
                 </ul>
+                <button class="hamburger" id="hamburger"><i class="fas fa-bars"></i></button>
             </nav>
     </header>
 
@@ -43,10 +44,11 @@
                     <br>
                     <hr>
                     <br>
-                    <p>Rhinoceros are a critically endangered species with less than 30,000 rhino living in the wild
+                    <p> Rhinoceros are a critically endangered species with less than 30,000 rhino living in the wild
                         today. At the start of the 20th century, there were over 500,000. Human activity has caused this
                         dramatic decline in rhino numbers. Initially, numbers dropped due to hunting, but today the main
-                        threats to rhino are poaching and habitat loss.</p>
+                        threats to rhino are poaching and habitat loss.
+                    </p>
                 </div>
                 <div>
                     <div class="buttonA"><a
@@ -55,6 +57,7 @@
                     <div class="buttonD"><a href="https://www.savetherhino.org/get-involved/donate" class="nav-link"
                         target="_blank">Donate</a></div>
                 </div>
+            </div>
         </section>
         <!-- What we do -->
         <section class="what-we-do-section">
@@ -118,11 +121,13 @@
         </section>
 
         <!-- Video of the Day -->
-        <section>
+        <section class="video-of-day">
             <div>
-                <h3>Video of the Day</h2>
+                <h2>Video of the Day</h2>
             </div>
-            <div id="video-to-embed"></div>
+            <div class="iframe-container">
+                <div id="iframe-wrapper"></div>
+            </div>
         </section>
     </main>
 
@@ -144,11 +149,13 @@
         </ul>
         <a href="#">Terms and conditions</a>
         <a href="#">Privacy policy</a>
-        <p>2023 &#169 Chronicles-of-Java team February Hackathon Project</p>
+        <p>2023 &#169; Chronicles-of-Java team February Hackathon Project</p>
     </footer>
 
+    <script src="assets/js/app.js"></script>
+
     <!-- Linking javascript -->
-    <script src="assets/js/script.js"></script>
+    <script src="assets/js/index-script.js"></script>
     <!-- font awesome script -->
     <script src="https://kit.fontawesome.com/635ea9fe59.js" crossorigin="anonymous"></script>
 </body>
