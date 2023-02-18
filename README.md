@@ -11,7 +11,7 @@ Visit us here at: https://save-the-rhinos-bubtroniq.vercel.app/
 
 ### Colour Scheme
 
-![Save Rhinos Colour Scheme](images/Rhinocolour.png)
+![Save Rhinos Colour Scheme](assets/images/Rhinocolour.png)
 
 ### Typography
 
@@ -32,18 +32,18 @@ Visit us here at: https://save-the-rhinos-bubtroniq.vercel.app/
 
 ## Wireframes
 
-![Wireframe](images/Homepage.png)
-![Wireframe](images/infopage.png)
-![Wireframe](images/involvedpage.png)
+![Wireframe](assets/images/Homepage.png)
+![Wireframe](assets/images/infopage.png)
+![Wireframe](assets/images/Involvedpage.png)
 
 ### Mobile Wireframes
 
-![Wireframe](images/PhoneView.png)
+![Wireframe](assets/images/PhoneView.png)
 
 
 ### Tablet Wireframes
 
-![Wireframe](images/ipadView.png)
+![Wireframe](asssets/images/IpadView.png)
 ### Desktop Wireframes
 
 
