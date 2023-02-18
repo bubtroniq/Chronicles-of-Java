@@ -288,15 +288,35 @@ p{
 }
 
 /* Video of the Day */
-#video-to-embed {
-    height: 40em;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.video-of-day div {
+    margin: 0 auto;
 }
 
-.video-of-day div {
-    margin-bottom: 1rem;
+.video-of-day h3 {
+    margin-top: 0.5rem;
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+
+#iframe-wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 80%;
+    padding-top: 45%;
+}
+
+.iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.iframe-container {
+    padding-bottom: 1.5rem;
 }
 
 /****************************************************************
