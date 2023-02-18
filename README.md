@@ -27,87 +27,72 @@ Note: Markdown files (.md) should not contain HTML elements like `img`, `br`, `d
 Find out more about using Markdown elements here:
 https://pandao.github.io/editor.md/en.html
 
-## UX
+<br>
 
-In this section, you will briefly explain your design processes.
+# Table of Contents
+
+[User Experience (UX)](#user-experience-ux)
+  - [User Stories](#user-stories)
+  - [Design](#design)
+  - [Wireframes](#wireframes)
+
+<br>
+
+# User Experience (UX)
+
+## User Stories
+
+### New Site Users
+
+| ID | Story | Implemented page/section |
+| --- | --- | ---|
+| [#22](https://github.com/bubtroniq/Chronicles-of-Java/issues/22) | As a First Time Visitor, I want to easily understand the main purpose of the site so that I can quickly decide whether I want to explore it more. | Homepage |
+| [#23](https://github.com/bubtroniq/Chronicles-of-Java/issues/23) |As a First Time Visitor, I want to easily navigate the sections so that I can easily find the content. | Navigation |
+| [#47](https://github.com/bubtroniq/Chronicles-of-Java/issues/47) | As a First Time Visitor, I want to see the organisation's projects so that I can decide whether I want to be involved. | About page |
+| [#48](https://github.com/bubtroniq/Chronicles-of-Java/issues/48) |As a First Time Visitor, I want to check their social media so that I can determine whether they are trustworthy. | Footer |
+
+### Returning Site Users
+
+| ID | Story | Implemented page/section |
+| --- | --- | ---|
+| [#24](https://github.com/bubtroniq/Chronicles-of-Java/issues/24) | As a returning visitor, I want to find possible ways how to donate so I can easily donate. | Homepage |
+| [#25](https://github.com/bubtroniq/Chronicles-of-Java/issues/25) | As a returning visitor, I want to know how the funds are used so that I can donate confidently. | Homepage|
+
+### Frequent Site Users
+
+| ID | Story | Implemented page/section |
+| --- | --- | ---|
+| [#49](https://github.com/bubtroniq/Chronicles-of-Java/issues/49) | As a donator, I want to know about new activities with the organisation so that I can decide whether I donate more. | Homepage |
+
+## Design
 
 ### Colour Scheme
 
-Explain your colours and the colour scheme.
+The main colours are black and white. To grab the user's attention, yellow and red are used on particular elements such as buttons and navigation menu items.
 
-- `#000000` used as the primary text.
-- `#E84610` used as the primary highlights.
-- `#4A4A4F` used as the secondary text.
-- `#009FE3` used as the secondary highlights.
-
-Consider adding a link and screenshot for your colour scheme using "coolors".
-https://coolors.co/generate
-
-When you add a colour to the palette, the URL is dynamically updated, making it easier for you to return back to your colour palette later if needed.
-
-Example:
-
-I used [coolors.co](https://coolors.co/e84610-009fe3-4a4a4f-445261-d63649-e6ecf0-000000) to generate my colour palette.
-
-![screenshot](documentation/coolors.png)
-
-If you've used CSS `:root` variables, consider also including a code snippet here!
-
-I've used CSS `:root` variables to easily update the global colour scheme by changing only one value, instead of everywhere in the CSS file.
+We've used CSS `:root` variables to easily update the global colour scheme by changing only one value, instead of everywhere in the CSS file.
 
 ```css
 :root {
-    /* P = Primary | S = Secondary */
-    --p-text: #000000;
-    --p-highlight: #E84610;
-    --s-text: #4A4A4F;
-    --s-highlight: #009FE3;
-    --white: #FFFFFF;
-    --black: #000000;
+    --main-black-color: #000;
+    --main-white-color: #fff;
+    --main-white-shade-color: #F7F3F3;
+    --main-white-shade2-color: #e4e0e0;
+    --accent-gold-color: #F7B21F;
+    --accent-gold-shade-color: #C78900;
+    --accent-gold-shade2-color: #f0d080;
+    --accent-red-color: #e73d3d;
+    --accent-red-shade-color: #C51426;
 }
 ```
 
 ### Typography
 
-Explain any fonts and icon libraries used, like Google Fonts and/or Font Awesome.
+- [Montserrat](https://fonts.google.com/specimen/Montserrat) is the main font used throughout the whole website with Sans Serif as the fallback font in case the font isn't imported into the browser correctly. Montserrat has a highly readable body typeface and a variety of weights and styles.
 
-Consider adding a link to each font used, and the Font Awesome site if used (or similar icon library).
-
-Example:
-
-- [Montserrat](https://fonts.google.com/specimen/Montserrat) was used for the primary headers and titles.
-
-- [Lato](https://fonts.google.com/specimen/Lato) was used for all other secondary text.
+- [Roboto Slab](https://fonts.google.com/specimen/Roboto+Slab) is used for the headings.
 
 - [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the social media icons in the footer.
-
-## User Stories
-
-In this section, list all of your user stories for the project.
-
-### New Site Users
-
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
-
-### Returning Site Users
-
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
-
-### Site Admin
-
-- As a site administrator, I should be able to ____________, so that I can ____________.
-- As a site administrator, I should be able to ____________, so that I can ____________.
-- As a site administrator, I should be able to ____________, so that I can ____________.
-- As a site administrator, I should be able to ____________, so that I can ____________.
-- As a site administrator, I should be able to ____________, so that I can ____________.
 
 ## Wireframes
 
