@@ -78,6 +78,8 @@ li {
     text-decoration: none;
     color: var(--accent-gold-color);
     font-size: 1rem;
+    font-size: 1.7rem;
+    font-weight: 800;
 }
 
 .nav-link:hover {
@@ -95,6 +97,7 @@ li {
 footer {
     padding: 1rem;
     background-color: var(--main-black-color);
+    text-align: center;
 }
 
 .media-buttons {
@@ -112,6 +115,13 @@ footer {
 
 footer p {
     text-align: center;
+}
+
+footer a {
+    display: inline-block;
+    padding-top: 1em;
+    padding-right: 1em;
+    color: var(--main-white-color);
 }
 
 /*------------------------------------------------------- Main */
