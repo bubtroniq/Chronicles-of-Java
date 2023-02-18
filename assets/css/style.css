@@ -71,6 +71,7 @@ li {
     text-decoration: none;
     padding: .3em .7em;
     flex-shrink: 1;
+    margin-top: 20px;
 }
 
 .nav-link {
@@ -87,6 +88,7 @@ li {
     width: 20vw;
     max-width: 5rem;
 }
+
 
 /*----------------------------------------------------- Footer */
 
