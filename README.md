@@ -25,6 +25,9 @@ Visit us here at: https://save-the-rhinos-bubtroniq.vercel.app/
 [Tools & Technologies Used](#tools--technologies-used)
 
 [Testing](#testing)
+- [Code Validation](#code-validation)
+- [Functionality Testing](#functionality-testing)
+- [Performance Testing](#performance-testing)
 
 [Deployment](#deployment)
 
@@ -178,9 +181,38 @@ https://jshint.com/
 
 ## Testing
 
-https://validator.w3.org/ For HTML validation
-https://jigsaw.w3.org/css-validator/ For CSS validation
-https://jshint.com/ for JavaScript validation
+### Code Validation
+
+- HTML Validation
+
+    - No errors or warnings were found when passing through the [W3C Markup Validator](https://validator.w3.org/).
+
+        ![HTML validation](docs/testing/validation-html.png)
+
+- CSS Validation
+
+    - No errors or warnings were found when passing through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
+
+        <!-- !TODO: Need screenshot -->
+
+- JS Validation
+
+    - No errors or warnings were found when passing through [JSHint](https://jshint.com/).
+
+    - `app.js`
+        ![JS validation](docs/testing/validation-js_app.png)
+    - `index-script.js`
+        ![JS validation](docs/testing/validation-js_index.png)
+    - `script.js`
+        ![JS validation](docs/testing/validation-js_script.png)
+
+### Functionality Testing
+
+### Performance Testing
+
+- We have measured the performance, accessibility, best practices and SEO using [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) in Chrome DevTools in incognito mode.
+
+![Lighthouse report](docs/testing/lighthouse.png)
 
 ## Deployment
 
@@ -231,5 +263,3 @@ https://www.savetherhino.org/about-us/our-impact/
 #### Karl Moran
 #### Razvan Joitescu
 #### Steve Docherty
-
-
