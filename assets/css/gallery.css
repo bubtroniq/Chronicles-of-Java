@@ -9,17 +9,19 @@ body{
     display: flex;
     width: 100%;
     min-height: 100vh;
-    background-color: lightgrey;
+    background-color: rgb(221, 155, 14);
 }
 .container{
     top: 150px;
     height: 70px;
     width: 70px;
-    background-color: darkgray;
+    background-color: orangered;
     border-radius: 50px;
     position: relative;
     transition: 0.4s ease;
     margin-left: 10px;
+    border: solid 0.1ch black;
+    margin-right: 5px;
 }
 .container.active{
     height: 420px;
@@ -30,6 +32,7 @@ body{
     height: 70px;
     width: 70px;
     border-radius: 50px;
+   
   }
   .icon{
     position: absolute;
@@ -110,7 +113,7 @@ body{
     width: 0px;
     height: 50%;
     transform: translateY(-50px);
-    background-color: lightsalmon;
+    background-color: gold;
     border-radius: 8px 0 0 8px;
   }
 li:hover a i::after{
@@ -124,7 +127,7 @@ li:hover a i::after{
   }
   .container.active .navItems li:hover a i{
     transition: 0.2s ease;
-    color: orangered;
+    color: yellow;
   }
   li a span{
     position: absolute;
@@ -146,10 +149,10 @@ li:hover a i::after{
   }
 
   /* Gallery Images */
-
+ 
   img{
-    width: 500px;
-    height: 600px;
+    width: 700px;
+    height: 800px;
     border-radius: 10px;
   }
   img:hover{
