@@ -17,8 +17,6 @@ Visit us here at: https://save-the-rhinos-bubtroniq.vercel.app/
 - [Returning Site Users](#returning-site-users)
 - [Frequent Site Users](#frequent-site-users)
 
-![Save Rhinos Colour Scheme](assets/images/Rhinocolour.png)
-=======
 [Wireframes](#wireframes)
 
 [Features](#features)
@@ -45,6 +43,8 @@ Visit us here at: https://save-the-rhinos-bubtroniq.vercel.app/
 
 The main colours are black and white. To grab the user's attention, yellow and red are used on particular elements such as buttons and navigation menu items.
 
+![Save Rhinos Colour Scheme](docs/colour_scheme.png)
+
 We've used CSS `:root` variables to easily update the global colour scheme by changing only one value, instead of everywhere in the CSS file.
 
 ```css
@@ -69,10 +69,6 @@ We've used CSS `:root` variables to easily update the global colour scheme by ch
 
 - [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the social media icons in the footer.
 
-![Wireframe](assets/images/Homepage.png)
-![Wireframe](assets/images/infopage.png)
-![Wireframe](assets/images/Involvedpage.png)
-=======
 ## User Stories
 
 ### New Site Users
@@ -84,8 +80,6 @@ We've used CSS `:root` variables to easily update the global colour scheme by ch
 | [#47](https://github.com/bubtroniq/Chronicles-of-Java/issues/47) | As a First Time Visitor, I want to see the organisation's projects so that I can decide whether I want to be involved. | About page |
 | [#48](https://github.com/bubtroniq/Chronicles-of-Java/issues/48) |As a First Time Visitor, I want to check their social media so that I can determine whether they are trustworthy. | Footer |
 
-![Wireframe](assets/images/PhoneView.png)
-=======
 ### Returning Site Users
 
 | ID | Story | Implemented page/section |
@@ -95,9 +89,6 @@ We've used CSS `:root` variables to easily update the global colour scheme by ch
 
 ### Frequent Site Users
 
-![Wireframe](assets/images/IpadView.png)
-### Desktop Wireframes
-=======
 | ID | Story | Implemented page/section |
 | --- | --- | ---|
 | [#49](https://github.com/bubtroniq/Chronicles-of-Java/issues/49) | As a donator, I want to know about new activities with the organisation so that I can decide whether I donate more. | Homepage |
@@ -106,9 +97,17 @@ We've used CSS `:root` variables to easily update the global colour scheme by ch
 
 ### Mobile Wireframes
 
+![Mobile Wireframe](docs/wireframes/phoneView.png)
+
 ### Tablet Wireframes
 
+![Tablet Wireframe](docs/wireframes/ipadView.png)
+
 ### Desktop Wireframes
+
+![Wireframe](docs/wireframes/homepage.png)
+![Wireframe](docs/wireframes/infopage.png)
+![Wireframe](docs/wireframes/involvedpage.png)
 
 ## Features
 
@@ -122,20 +121,20 @@ The logo
 
 - **Feature #2**
 
-The nav bar. It is fully responsive and has four sections. First, "Get involved", which links to further down the page and repeats the donate button which is spread over the site. It has a title as well as some information on rhino endangerment, with an encouraging messaging to get involved with the protection of their species. secondly, the "Gallery", which has a slideshow depiting pictures of rhinos. It has its own dedicated page which has been coded into the workspace. Thirdly, an "About" page. This also has its own separate page and links to an informational section on who Save the Rhinos are and another section on what they do. This is followed by an embedded link that takes you to a live cam on youtube of rhinos in a protected sanctuary. Lastly on the nav bar, there is the "Donate" page, which links externally to https://www.savetherhino.org/get-involved/donate, an already exisiting page for "Save the Rhino" with the option to donate to an actual charity and thus adding a real contributive user experience. 
+The nav bar. It is fully responsive and has four sections. First, "Get involved", which links to further down the page and repeats the donate button which is spread over the site. It has a title as well as some information on rhino endangerment, with an encouraging messaging to get involved with the protection of their species. secondly, the "Gallery", which has a slideshow depiting pictures of rhinos. It has its own dedicated page which has been coded into the workspace. Thirdly, an "About" page. This also has its own separate page and links to an informational section on who Save the Rhinos are and another section on what they do. This is followed by an embedded link that takes you to a live cam on youtube of rhinos in a protected sanctuary. Lastly on the nav bar, there is the "Donate" page, which links externally to the [_Save the Rhino_ donation page](https://www.savetherhino.org/get-involved/donate), an already exisiting page for "Save the Rhino" with the option to donate to an actual charity and thus adding a real contributive user experience. 
 
    ![image](https://user-images.githubusercontent.com/104646542/219871639-f9d6e416-57f1-4b47-8f93-f49cf337f09c.png)
 
 - **Feature #3**
 
-Main body of the home page with responsive buttons. This consists of another informational section on rhino endangerment and details the species' statistics over the last two centuries and the critical reduction in their existence. It details the reasons behind this and then has two responsive buttons underneath: "Adopt"- which links to an already existing charity site by WWF- https://support.wwf.org.uk/adopt-a-rhino?utm_source=Google-Generic&utm_medium=PaidSearch-Generic&pc=AVN014003&&&gclid=Cj0KCQiA6LyfBhC3ARIsAG4gkF9rfKmk8KUSL1ptkpAeJwKIzE7-rkFusdw8i76nsELK94NwSwlQB4AaAla6EALw_wcB&gclsrc=aw.ds. It provides the user with an actual oppportinity to adopt a rhino and help the cause, once again adding a real contributive user experience. The other responsive buttons is "Donate" which links again to the same site as in the nav bar. 
+Main body of the home page with responsive buttons. This consists of another informational section on rhino endangerment and details the species' statistics over the last two centuries and the critical reduction in their existence. It details the reasons behind this and then has two responsive buttons underneath: "Adopt"- which links to an already existing charity site by WWF- [link](https://support.wwf.org.uk/adopt-a-rhino?utm_source=Google-Generic&utm_medium=PaidSearch-Generic&pc=AVN014003&&&gclid=Cj0KCQiA6LyfBhC3ARIsAG4gkF9rfKmk8KUSL1ptkpAeJwKIzE7-rkFusdw8i76nsELK94NwSwlQB4AaAla6EALw_wcB&gclsrc=aw.ds). It provides the user with an actual oppportinity to adopt a rhino and help the cause, once again adding a real contributive user experience. The other responsive buttons is "Donate" which links again to the same site as in the nav bar. 
 
 
 ![image](https://user-images.githubusercontent.com/104646542/219871833-384fdb32-0a41-48a3-94b4-4aeb93d7d4ee.png)
 
 - **Feature #4**
 
-Charity information. This setion details all that the charity are doing to aid the cause. It includes another encouraging message to stand together and save the species with suport and donations. Then, some info on the outstanding achievements that have already been attained, followed by a responsive "Read more about our impact" button, that takes you externally to https://www.savetherhino.org/about-us/our-impact/ so you can read further information on how they are helping. lastly in this section of the page, there are some statistics on: how much money was raised, how kuch land is being patrolled to protect rhinos and how many african canine units were supported in boosting their awareness of rhino endangerment issues.
+Charity information. This setion details all that the charity are doing to aid the cause. It includes another encouraging message to stand together and save the species with suport and donations. Then, some info on the outstanding achievements that have already been attained, followed by a responsive "Read more about our impact" button, that takes you externally to the [_Save the Rhino_ our impact page](https://www.savetherhino.org/about-us/our-impact/) so you can read further information on how they are helping. lastly in this section of the page, there are some statistics on: how much money was raised, how kuch land is being patrolled to protect rhinos and how many african canine units were supported in boosting their awareness of rhino endangerment issues.
 
 ![image](https://user-images.githubusercontent.com/104646542/219872156-a0b81e9f-2ac1-4987-8a0a-058f170c86c1.png)
 
@@ -166,14 +165,14 @@ About page- needs coding finished then can add
 
 - **Feature #10**
 
-The "Donate" link. This is the last part of the nav bar and takes you externally to https://www.savetherhino.org/get-involved/donate  
+The "Donate" link. This is the last part of the nav bar and takes you externally to the [_Save the Rhino_ donation page](https://www.savetherhino.org/get-involved/donate).
 
 ![image](https://user-images.githubusercontent.com/104646542/219872785-38537c8a-7624-4b37-bba9-114bbacb9380.png)
 
 
 - **Feature #11**
 
-The "Adopt" link. This is part of the main home page and is where the ywllow donate button takes you to. It externally links to https://support.wwf.org.uk/adopt-a-rhino?utm_source=Google-Generic&utm_medium=PaidSearch-Generic&pc=AVN014003&&&gclid=Cj0KCQiA6LyfBhC3ARIsAG4gkF9rfKmk8KUSL1ptkpAeJwKIzE7-rkFusdw8i76nsELK94NwSwlQB4AaAla6EALw_wcB&gclsrc=aw.ds 
+The "Adopt" link. This is part of the main home page and is where the yellow donate button takes you to. It externally links to the [_WWF_ adopt page](https://support.wwf.org.uk/adopt-a-rhino?utm_source=Google-Generic&utm_medium=PaidSearch-Generic&pc=AVN014003&&&gclid=Cj0KCQiA6LyfBhC3ARIsAG4gkF9rfKmk8KUSL1ptkpAeJwKIzE7-rkFusdw8i76nsELK94NwSwlQB4AaAla6EALw_wcB&gclsrc=aw.ds)
 
 ![image](https://user-images.githubusercontent.com/104646542/219872833-99c843d8-ff89-42e3-87a3-11e8e45c80b0.png)
 
@@ -181,14 +180,14 @@ The "Adopt" link. This is part of the main home page and is where the ywllow don
 
 ## Tools & Technologies Used
 
-https://techsini.com/
-https://github.com/
-https://www.gitpod.io/
-https://www.vercel.com/
-https://www.youtube.com/
-https://validator.w3.org/ 
-https://jigsaw.w3.org/css-validator/
-https://jshint.com/
+[Techsini](https://techsini.com/)
+[GitHub](https://github.com/)
+[Gitpod](https://www.gitpod.io/)
+[Vercel](https://www.vercel.com/)
+[YouTube](https://www.youtube.com/)
+[W3C Markup Validation Service](https://validator.w3.org/ )
+[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+[JSHint](https://jshint.com/)
 
 ## Testing
 
@@ -204,7 +203,7 @@ https://jshint.com/
 
     - No errors or warnings were found when passing through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
 
-        <!-- !TODO: Need screenshot -->
+        ![CSS validation](docs/testing/validation-css.png)
 
 - JS Validation
 
@@ -251,15 +250,14 @@ This site was deployed via vercel and can be found live at: https://save-the-rhi
 
 ### Content
 
-https://www.savetherhino.org/get-involved/donate
+- Save the Rhino
+    - [Donate](https://www.savetherhino.org/get-involved/donate)
+    - [Our impact](https://www.savetherhino.org/about-us/our-impact/)
 
-https://support.wwf.org.uk/adopt-a-rhino?utm_source=Google-Generic&utm_medium=PaidSearch-Generic&pc=AVN014003&&&gclid=Cj0KCQiA6LyfBhC3ARIsAG4gkF9rfKmk8KUSL1ptkpAeJwKIzE7-rkFusdw8i76nsELK94NwSwlQB4AaAla6EALw_wcB&gclsrc=aw.ds
-
-https://www.savetherhino.org/about-us/our-impact/
+- WWF
+    - [Adopt a rhino](https://support.wwf.org.uk/adopt-a-rhino?utm_source=Google-Generic&utm_medium=PaidSearch-Generic&pc=AVN014003&&&gclid=Cj0KCQiA6LyfBhC3ARIsAG4gkF9rfKmk8KUSL1ptkpAeJwKIzE7-rkFusdw8i76nsELK94NwSwlQB4AaAla6EALw_wcB&gclsrc=aw.ds)
 
 ### Media
-
-
 
 ## Acknowledgements
 
