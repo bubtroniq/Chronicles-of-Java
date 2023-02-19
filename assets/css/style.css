@@ -441,14 +441,46 @@ p {
         font-size: 30px;
     }
 
-    .buttonA, 
-    .buttonD {
+    .buttonA,
+    .buttonAA,
+    .buttonD, 
+    .buttonDD {
         margin-left: auto;
         margin-right: auto;
         width: 120px;
         height: 40px;
         font-size: 30px;
     }
+
+    /* about page media queries */
+    .containerA  {
+        margin-left: 0;
+    }
+
+    .vertical-center-left {
+        justify-content: center;
+    }
+
+    .who-box {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .what-box {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .what-box ul {
+        display: block;
+    }
+
+    .what-image {
+        height: 100%;
+        padding-top: 20px;
+    }
+
+    /* end of about page media queries */
 
     nav ul {
         flex-direction: column;
@@ -543,6 +575,40 @@ p {
         font-size: 34px;
     }
 
+    .buttonAA, 
+    .buttonDD {
+        margin-left: auto;
+        margin-right: auto;
+        width: 120px;
+        height: 40px;
+        font-size: 30px;
+    }
+
+    /* about page media queries */
+    .containerA  {
+        margin-left: 0;
+    }
+
+    .vertical-center-left {
+        justify-content: center;
+    }
+
+    .who-box {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .what-box {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .what-box ul {
+        display: block;
+    }
+
+    /* end of about page media queries */
+
     nav ul {
         flex-direction: column;
         display: none;
@@ -630,9 +696,9 @@ p {
 
     /*----------------------------------------------------- Hero image */
 
-    .hero-image {
+    /* .hero-image {
         height: 110vh;
-    }
+    } */
 
     .hero-text {
         max-width: 82.5rem;
