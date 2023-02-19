@@ -201,7 +201,7 @@ h1 {
 }
 
 .container {
-    max-width: 80%;
+    max-width: 450px;
     text-align: center;
     padding: 1px;
     margin-top: 50px;
@@ -441,7 +441,11 @@ p {
         text-decoration: none;
         color: var(--accent-gold-color);
         font-weight: 800;
-        
+    }
+
+    .active.nav-link {
+        text-decoration: underline;
+        color: #F7B21F;
     }
 
     #nav-list {
@@ -483,9 +487,12 @@ p {
         padding-left: 2rem;
     }
 
+    
+
     .hero-text p {
         line-height: 1.7;
         font-weight: bolder;
+        
     }
 
     /*----------------------------------------------------- What we do */
