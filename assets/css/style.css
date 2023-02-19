@@ -180,9 +180,33 @@ section {
     background-color: var(--main-white-shade-color);
 }
 
-/* section:not(:first-child)>* {
-    max-width: 82.5rem;
-} */
+/* For button hover effect */
+.btn {
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+
+.btn:hover {
+    border: 1px solid var(--accent-gold-color) !important;
+    background-color: var(--main-black-color);
+    color: var(--accent-gold-color);
+    transform: scale(1.1);
+    transition: all .5s ease-in-out;
+}
+
+.btn.buttonD:hover,
+.btn.buttonDD:hover {
+    border: 1px solid var(--accent-red-color) !important;
+}
+
+.btn:hover > .nav-link {
+    color: var(--accent-gold-color);
+}
+
+.btn.buttonD:hover > .nav-link,
+.btn.buttonDD:hover > .nav-link {
+    color: var(--accent-red-color) !important;
+}
 
 /* -- Hero image -- km */
 
@@ -201,7 +225,7 @@ h1 {
 }
 
 .container {
-    max-width: 80%;
+    max-width: 450px;
     text-align: center;
     padding: 1px;
     margin-top: 50px;
@@ -220,7 +244,7 @@ h1 {
     font-weight: 300;
     font-size: 35px;
     margin-top: 10px;
-    margin-left: 160px;
+    margin-inline: auto;
     border-radius: 6px;
 }
 
@@ -271,13 +295,25 @@ h1 {
 
 .impact {
     display: inline-block;
-    margin: 2em;
+    margin: 2em auto;
     padding: 10px 15px;
     text-decoration: none;
     background-color: var(--accent-gold-color);
     border-radius: 6px;
     color: black;
+    font-size: 1rem;
     font-weight: bolder;
+}
+
+.cta .impact.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 60px;
+    margin: 1rem auto;
+    font-size: 1.4rem;
+    text-transform: uppercase;
 }
 
 .achievements {
@@ -384,11 +420,67 @@ p {
 *****************************************************************/
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 500px) and (min-width: 0px){
 
-    body {
-        font-size: 10px;
+    body,
+    #footer-form button,
+    .container p,
+    p {
+        font-size: 14px;
     }
+
+    h2, h3{
+        font-size: 24px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    .achievements div h3 {
+        font-size: 30px;
+    }
+
+    .buttonA,
+    .buttonAA,
+    .buttonD, 
+    .buttonDD {
+        margin-left: auto;
+        margin-right: auto;
+        width: 120px;
+        height: 40px;
+        font-size: 30px;
+    }
+
+    /* about page media queries */
+    .containerA  {
+        margin-left: 0;
+    }
+
+    .vertical-center-left {
+        justify-content: center;
+    }
+
+    .who-box {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .what-box {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .what-box ul {
+        display: block;
+    }
+
+    .what-image {
+        height: 100%;
+        padding-top: 20px;
+    }
+
+    /* end of about page media queries */
 
     nav ul {
         flex-direction: column;
@@ -441,7 +533,138 @@ p {
         text-decoration: none;
         color: var(--accent-gold-color);
         font-weight: 800;
-        
+    }
+
+    .active.nav-link {
+        text-decoration: underline;
+        color: #F7B21F;
+    }
+
+    #nav-list {
+        margin-left: auto;
+    }
+
+    .container {
+        margin: 0 auto;
+    }
+
+    #iframe-wrapper {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 767px){
+    body,
+    #footer-form button,
+    .container p,
+    p {
+        font-size: 18px;
+    }
+
+    h2, 
+    h3,
+    .what-we-do h2 {
+        font-size: 28px;
+    }
+
+    h4 {
+        font-size: 24px;
+    }
+
+    .achievements div h3 {
+        font-size: 34px;
+    }
+
+    .buttonAA, 
+    .buttonDD {
+        margin-left: auto;
+        margin-right: auto;
+        width: 120px;
+        height: 40px;
+        font-size: 30px;
+    }
+
+    /* about page media queries */
+    .containerA  {
+        margin-left: 0;
+    }
+
+    .vertical-center-left {
+        justify-content: center;
+    }
+
+    .who-box {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .what-box {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .what-box ul {
+        display: block;
+    }
+
+    /* end of about page media queries */
+
+    nav ul {
+        flex-direction: column;
+        display: none;
+        margin: 0px;
+        background-color: transparent;
+    }
+
+    section {
+        padding: 1%;
+    }
+
+    .achievements {
+        flex-direction: column;
+    }
+
+    .hamburger {
+        display: block;
+        border: 0;
+        background-color: transparent;
+        color: var(--accent-gold-color);
+        font-size: 30px;
+        margin: 20px;
+        align-self: flex-end;
+    }
+
+    .what-we-do ul {
+        display: flex;
+    }
+
+    ul.show {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: transparent;
+        text-align: center;
+    }
+
+    nav div {
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
+    }
+
+    .nav-link {
+        text-decoration: none;
+        color: var(--accent-gold-color);
+        font-weight: 800;
+    }
+
+    .active.nav-link {
+        text-decoration: underline;
+        color: #F7B21F;
     }
 
     #nav-list {
@@ -473,9 +696,9 @@ p {
 
     /*----------------------------------------------------- Hero image */
 
-    .hero-image {
+    /* .hero-image {
         height: 110vh;
-    }
+    } */
 
     .hero-text {
         max-width: 82.5rem;
@@ -483,9 +706,12 @@ p {
         padding-left: 2rem;
     }
 
+    
+
     .hero-text p {
         line-height: 1.7;
         font-weight: bolder;
+        
     }
 
     /*----------------------------------------------------- What we do */
