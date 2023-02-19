@@ -10,12 +10,10 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 0;
+    margin: auto;
     padding: 15px;
-    font-size: 30px;
     background: black;
 }
-
 
 nav ul {
     display: flex;
@@ -25,20 +23,34 @@ nav ul {
     font-size: .7em;
 }
 
+
 nav li {
     display: inline-block;
     text-decoration: none;
     padding: .3em .7em;
     flex-shrink: 1;
+    margin-top: 20px;
 }
 
 .nav-link {
     text-decoration: none;
-    color: white;
+    color: #f7b12f;
+    font-size: 1rem;
+    font-size: 1.7rem;
+    font-weight: 800;
+}
+
+.nav-link:hover {
+    color: var(--accent-gold-shade-color);
+}
+
+.nav-img {
+    width: 20vw;
+    max-width: 5rem;
 }
 
 .who-box {
-    max-width: 350px;
+    max-width: 500px;
     font-size: 20px;
     text-align: center;
     background-color: rgb(128, 128, 128, .3);
@@ -47,9 +59,8 @@ nav li {
 
 }
 
-
 .what-box {
-    max-width: 350px;
+    max-width: 550px;
     font-size: 20px;
     text-align: center;
     background-color: rgb(128, 128, 128, .3);
