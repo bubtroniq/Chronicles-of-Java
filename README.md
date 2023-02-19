@@ -129,52 +129,58 @@ The nav bar. It is fully responsive and has four sections. First, "Get involved"
 
 Main body of the home page with responsive buttons. This consists of another informational section on rhino endangerment and details the species' statistics over the last two centuries and the critical reduction in their existence. It details the reasons behind this and then has two responsive buttons underneath: "Adopt"- which links to an already existing charity site by WWF- [link](https://support.wwf.org.uk/adopt-a-rhino?utm_source=Google-Generic&utm_medium=PaidSearch-Generic&pc=AVN014003&&&gclid=Cj0KCQiA6LyfBhC3ARIsAG4gkF9rfKmk8KUSL1ptkpAeJwKIzE7-rkFusdw8i76nsELK94NwSwlQB4AaAla6EALw_wcB&gclsrc=aw.ds). It provides the user with an actual oppportinity to adopt a rhino and help the cause, once again adding a real contributive user experience. The other responsive buttons is "Donate" which links again to the same site as in the nav bar. 
 
-
 ![image](https://user-images.githubusercontent.com/104646542/219871833-384fdb32-0a41-48a3-94b4-4aeb93d7d4ee.png)
 
 - **Feature #4**
+
+About page. This is styled as the same main body of the page and has a bigger informational section about the cause.
+
+![image](https://user-images.githubusercontent.com/104646542/219982192-35a81471-5e6e-4824-82c8-5aeda3b8d19f.png)
+
+
+- **Feature #5**
 
 Charity information. This setion details all that the charity are doing to aid the cause. It includes another encouraging message to stand together and save the species with suport and donations. Then, some info on the outstanding achievements that have already been attained, followed by a responsive "Read more about our impact" button, that takes you externally to the [_Save the Rhino_ our impact page](https://www.savetherhino.org/about-us/our-impact/) so you can read further information on how they are helping. lastly in this section of the page, there are some statistics on: how much money was raised, how kuch land is being patrolled to protect rhinos and how many african canine units were supported in boosting their awareness of rhino endangerment issues.
 
 ![image](https://user-images.githubusercontent.com/104646542/219872156-a0b81e9f-2ac1-4987-8a0a-058f170c86c1.png)
 
-- **Feature #5**
+- **Feature #6**
 
 "Get involved" section. This is where the button on the nav bar directs to on the main page. It has more information on the cause and once again, a link to the donate button. it also contains a list of projects that they are involved in: protecting rhinos, reducing illegal trade and engaging communities.
 
 ![image](https://user-images.githubusercontent.com/104646542/219872281-f8863233-26b4-4fcb-adc4-abb0c3b8d4ea.png)
 
-- **Feature #6**
+- **Feature #7**
 Video of the day section. In this section is embbeded an iframe displaying youtube videos with rhinos. Everyday a different video is displayed, that being done using JavaScript.
 ![image](docs/video-of-the-day.jpg)
 
-- **Feature #7**
+- **Feature #8**
 
-Footer. This sections has links to social media pages for: Facebook, Twiiter, Youtube and instagram. It also contains: a terms and conditions page, privacy policy and copyright image for the hackathon project. 
+Footer. This sections has links to social media pages for: Facebook, Twitter, Youtube and instagram. It also contains: a terms and conditions page, privacy policy and copyright image for the hackathon project. 
 
 ![image](https://user-images.githubusercontent.com/104646542/219872365-8b73fafb-2f15-4721-b79c-fe15f4fe656f.png)
 
-- **Feature #8**
+- **Feature #9**
 
 The "Gallery". This takes you to an external page when clicked on in the nav bar. It contains a gallery of 5 rhino images and also has a drop down menu to the left to take you back to the other pages.
 
 ![image](https://user-images.githubusercontent.com/104646542/219872633-2a35b91f-0300-4e24-945e-06f532d293ea.png)
 
-- **Feature #9**
+- **Feature #10**
 
 About page is displaying two new sections, who
  we are section and what we do section.Here you can find more detailed info about what our organization is doing at the moment and what is planning for the future.
  ![image](docs/who-we-are.jpg)
  ![image](docs/what-we-do.jpg)
 
-- **Feature #10**
+- **Feature #11**
 
 The "Donate" link. This is the last part of the nav bar and takes you externally to the [_Save the Rhino_ donation page](https://www.savetherhino.org/get-involved/donate).
 
 ![image](https://user-images.githubusercontent.com/104646542/219872785-38537c8a-7624-4b37-bba9-114bbacb9380.png)
 
 
-- **Feature #11**
+- **Feature #12**
 
 The "Adopt" link. This is part of the main home page and is where the yellow donate button takes you to. It externally links to the [_WWF_ adopt page](https://support.wwf.org.uk/adopt-a-rhino?utm_source=Google-Generic&utm_medium=PaidSearch-Generic&pc=AVN014003&&&gclid=Cj0KCQiA6LyfBhC3ARIsAG4gkF9rfKmk8KUSL1ptkpAeJwKIzE7-rkFusdw8i76nsELK94NwSwlQB4AaAla6EALw_wcB&gclsrc=aw.ds)
 
