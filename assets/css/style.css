@@ -120,6 +120,10 @@ footer {
     color: var(--accent-gold-color);
 }
 
+.media-buttons i:hover {
+    transform: scale(1.5);
+}
+
 footer p {
     text-align: center;
 }
