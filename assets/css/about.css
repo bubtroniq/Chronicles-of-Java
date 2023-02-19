@@ -57,3 +57,42 @@ ul {
     align-items: center;
     justify-content: left;
 }
+
+.active.nav-link {
+    text-decoration: underline;
+    color: #F7B21F;
+}
+
+.containerA {
+    max-width: 1200px;
+    text-align: center;
+    padding: 1px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.buttonAA,
+.buttonDD {
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 35px;
+    margin-top: 10px;
+    margin-left: 525px;
+    border-radius: 6px;
+}
+
+.buttonAA {
+    background-color: var(--accent-gold-color);
+}
+
+.buttonDD {
+    background-color: var(--accent-red-color);
+    margin-bottom: 1rem;
+}
+
+.buttonAA a,
+.buttonDD a {
+    color: var(--main-black-color);
+}

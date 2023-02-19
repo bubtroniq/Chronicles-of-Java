@@ -194,16 +194,18 @@ section {
     transition: all .5s ease-in-out;
 }
 
-.btn.buttonD:hover {
+.btn.buttonD:hover,
+.btn.buttonDD:hover {
     border: 1px solid var(--accent-red-color) !important;
-}
-
-.btn.buttonD:hover > .nav-link {
-    color: var(--accent-red-color);
 }
 
 .btn:hover > .nav-link {
     color: var(--accent-gold-color);
+}
+
+.btn.buttonD:hover > .nav-link,
+.btn.buttonDD:hover > .nav-link {
+    color: var(--accent-red-color) !important;
 }
 
 /* -- Hero image -- km */
@@ -223,7 +225,7 @@ h1 {
 }
 
 .container {
-    max-width: 80%;
+    max-width: 450px;
     text-align: center;
     padding: 1px;
     margin-top: 50px;
@@ -475,7 +477,11 @@ p {
         text-decoration: none;
         color: var(--accent-gold-color);
         font-weight: 800;
-        
+    }
+
+    .active.nav-link {
+        text-decoration: underline;
+        color: #F7B21F;
     }
 
     #nav-list {
@@ -517,9 +523,12 @@ p {
         padding-left: 2rem;
     }
 
+    
+
     .hero-text p {
         line-height: 1.7;
         font-weight: bolder;
+        
     }
 
     /*----------------------------------------------------- What we do */
