@@ -180,9 +180,31 @@ section {
     background-color: var(--main-white-shade-color);
 }
 
-/* section:not(:first-child)>* {
-    max-width: 82.5rem;
-} */
+/* For button hover effect */
+.btn {
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+
+.btn:hover {
+    border: 1px solid var(--accent-gold-color) !important;
+    background-color: var(--main-black-color);
+    color: var(--accent-gold-color);
+    transform: scale(1.1);
+    transition: all .5s ease-in-out;
+}
+
+.btn.buttonD:hover {
+    border: 1px solid var(--accent-red-color) !important;
+}
+
+.btn.buttonD:hover > .nav-link {
+    color: var(--accent-red-color);
+}
+
+.btn:hover > .nav-link {
+    color: var(--accent-gold-color);
+}
 
 /* -- Hero image -- km */
 
@@ -220,7 +242,7 @@ h1 {
     font-weight: 300;
     font-size: 35px;
     margin-top: 10px;
-    margin-left: 160px;
+    margin-inline: auto;
     border-radius: 6px;
 }
 
@@ -271,13 +293,25 @@ h1 {
 
 .impact {
     display: inline-block;
-    margin: 2em;
+    margin: 2em auto;
     padding: 10px 15px;
     text-decoration: none;
     background-color: var(--accent-gold-color);
     border-radius: 6px;
     color: black;
+    font-size: 1rem;
     font-weight: bolder;
+}
+
+.cta .impact.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 60px;
+    margin: 1rem auto;
+    font-size: 1.4rem;
+    text-transform: uppercase;
 }
 
 .achievements {
