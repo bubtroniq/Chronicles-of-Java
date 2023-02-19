@@ -80,6 +80,7 @@ li {
     color: var(--accent-gold-color);
     font-size: 1rem;
     font-weight: 800;
+    text-transform: uppercase;
 }
 
 .nav-link:hover {
@@ -439,8 +440,8 @@ p {
     .nav-link {
         text-decoration: none;
         color: var(--accent-gold-color);
-        font-size: 1em;
         font-weight: 800;
+        
     }
 
     #nav-list {
