@@ -17,6 +17,8 @@ Visit us here at: https://save-the-rhinos-bubtroniq.vercel.app/
 - [Returning Site Users](#returning-site-users)
 - [Frequent Site Users](#frequent-site-users)
 
+![Save Rhinos Colour Scheme](assets/images/Rhinocolour.png)
+=======
 [Wireframes](#wireframes)
 
 [Features](#features)
@@ -67,6 +69,10 @@ We've used CSS `:root` variables to easily update the global colour scheme by ch
 
 - [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the social media icons in the footer.
 
+![Wireframe](assets/images/Homepage.png)
+![Wireframe](assets/images/infopage.png)
+![Wireframe](assets/images/Involvedpage.png)
+=======
 ## User Stories
 
 ### New Site Users
@@ -78,6 +84,8 @@ We've used CSS `:root` variables to easily update the global colour scheme by ch
 | [#47](https://github.com/bubtroniq/Chronicles-of-Java/issues/47) | As a First Time Visitor, I want to see the organisation's projects so that I can decide whether I want to be involved. | About page |
 | [#48](https://github.com/bubtroniq/Chronicles-of-Java/issues/48) |As a First Time Visitor, I want to check their social media so that I can determine whether they are trustworthy. | Footer |
 
+![Wireframe](assets/images/PhoneView.png)
+=======
 ### Returning Site Users
 
 | ID | Story | Implemented page/section |
@@ -87,6 +95,9 @@ We've used CSS `:root` variables to easily update the global colour scheme by ch
 
 ### Frequent Site Users
 
+![Wireframe](assets/images/IpadView.png)
+### Desktop Wireframes
+=======
 | ID | Story | Implemented page/section |
 | --- | --- | ---|
 | [#49](https://github.com/bubtroniq/Chronicles-of-Java/issues/49) | As a donator, I want to know about new activities with the organisation so that I can decide whether I donate more. | Homepage |
