@@ -135,6 +135,39 @@ footer a {
     color: var(--main-white-color);
 }
 
+#footer-form {
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+#footer-form input, 
+#footer-form select, 
+#footer-form button,
+#footer-form h2 {
+    margin: 0.25rem;
+}
+
+#footer-form p {
+    margin: 0.5rem;
+}
+
+#footer-form input, 
+#footer-form select {
+    padding: 0.25rem;
+    text-align: center;
+    max-width: 50%;
+}
+
+#footer-form button {
+    border: 0;
+    font-weight: 800;
+    font-size: 1rem;
+}
+
+#footer-form button:hover {
+    cursor: pointer;
+}
+
 /*------------------------------------------------------- Main */
 
 main {
