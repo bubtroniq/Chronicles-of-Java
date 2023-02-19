@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- Meta tags -->
     <meta charset="UTF-8">
@@ -12,25 +13,60 @@
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="/assets/images/rhino-icon.png">
-    
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/about.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 
     <title>Save the Rhino - About</title>
 </head>
+
 <body>
-   
-   <main>
+
+    <!-- Header -->
+    <header class="header">
+
         <!--Nav bar-->
         <nav>
             <div><img src="assets/images/Rhinotwo.avif" class="nav-img" alt="logo-img"></div>
             <ul id="nav-list">
-                <li><a href="/#cta" class="nav-link">Get Involved</a></li>
-                <li><a href="gallery.html" class="nav-link">Gallery</a></li>
-                <li><a href ="about.html" class="nav-link">About</a></li>
-                <li><a href="https://www.savetherhino.org/get-involved/donate" target="_blank" class="nav-link">Donate</a></li>
+                <li><a class="nav-link" href="#cta">Get Involved</a></li>
+                <li><a class="nav-link" href="gallery.html">Gallery</a></li>
+                <li><a class="nav-link" href="about.html">About</a></li>
+                <li><a class="nav-link" href="https://www.savetherhino.org/get-involved/donate"
+                        target="_blank">Donate</a></li>
             </ul>
+            <button class="hamburger" id="hamburger"><i class="fas fa-bars"></i></button>
         </nav>
+    </header>
+
+    <main>
+
+        <!-- Hero image -->
+        <section class="hero-image" id="heroImage">
+            <!-- <h1>Hero image title</h1> -->
+            <div class="hero-text">
+                <div class="container">
+                    <h1>Save The Rhinos</h1>
+                    <br>
+                    <hr>
+                    <br>
+                    <p> Rhinoceros are a critically endangered species with less than 30,000 rhino living in the wild
+                        today. At the start of the 20th century, there were over 500,000. Human activity has caused this
+                        dramatic decline in rhino numbers. Initially, numbers dropped due to hunting, but today the main
+                        threats to rhino are poaching and habitat loss.
+                    </p>
+                </div>
+                <div>
+                    <div class="buttonA"><a
+                            href="https://support.wwf.org.uk/adopt-a-rhino?utm_source=Google-Generic&utm_medium=PaidSearch-Generic&pc=AVN014003&&&gclid=Cj0KCQiA6LyfBhC3ARIsAG4gkF9rfKmk8KUSL1ptkpAeJwKIzE7-rkFusdw8i76nsELK94NwSwlQB4AaAla6EALw_wcB&gclsrc=aw.ds"
+                            target="_blank" class="nav-link">Adopt</a></div>
+                    <div class="buttonD"><a href="https://www.savetherhino.org/get-involved/donate" class="nav-link"
+                            target="_blank">Donate</a></div>
+                </div>
+            </div>
+        </section>
+
 
         <!--Who are we section-->
         <section class="who-image vertical-center-right">
@@ -42,14 +78,22 @@
                 <br>
 
                 <p>
-                    Save the Rhino is an international non-profit organization dedicated to the protection and conservation of rhinoceros species. Established in 1992, the organization works with governments, communities, and other conservation groups to develop and implement effective strategies to combat poaching, reduce illegal trade, and promote sustainable rhino populations. <br><br>Save the Rhino supports a range of initiatives, including anti-poaching patrols, habitat restoration, education and awareness programs, and scientific research. Through its work, Save the Rhino aims to secure a future for rhinos in the wild, protect their habitats, and raise awareness of the critical role these iconic species play in our ecosystems.Save the Rhino is an international non-profit organization dedicated to the protection and conservation of rhinoceros species.
+                    Save the Rhino is an international non-profit organization dedicated to the protection and
+                    conservation of rhinoceros species. Established in 1992, the organization works with governments,
+                    communities, and other conservation groups to develop and implement effective strategies to combat
+                    poaching, reduce illegal trade, and promote sustainable rhino populations. <br><br>Save the Rhino
+                    supports a range of initiatives, including anti-poaching patrols, habitat restoration, education and
+                    awareness programs, and scientific research. Through its work, Save the Rhino aims to secure a
+                    future for rhinos in the wild, protect their habitats, and raise awareness of the critical role
+                    these iconic species play in our ecosystems.Save the Rhino is an international non-profit
+                    organization dedicated to the protection and conservation of rhinoceros species.
                 </p>
             </div>
-            
+
             <div class="spacer"></div>
 
         </section>
-    
+
         <!--What Section-->
         <section class="what-image vertical-center-left">
             <div class="what-box">
@@ -58,15 +102,22 @@
                 <hr>
                 <br>
                 <ul>
-                    <li>Save the Rhino works to protect rhino populations from poaching and illegal trade by funding anti-poaching patrols, training and equipping rangers, and supporting law enforcement efforts.</li>
-                    <li>The organization supports habitat restoration and conservation efforts to ensure that rhinos have access to sufficient food and safe places to live and breed.</li>
-                    <li>Save the Rhino works with local communities to promote sustainable development and alternative livelihoods that reduce the pressure on natural resources and promote wildlife conservation.</li>
-                    <li>The organization funds research and monitoring projects to better understand rhino populations, behavior, and health, and to inform conservation strategies and decision-making.</li>
-                    <li>Save the Rhino raises awareness of the plight of rhinos and the need for conservation through education and outreach programs, media campaigns, and advocacy efforts.</li>
+                    <li>Save the Rhino works to protect rhino populations from poaching and illegal trade by funding
+                        anti-poaching patrols, training and equipping rangers, and supporting law enforcement efforts.
+                    </li>
+                    <li>The organization supports habitat restoration and conservation efforts to ensure that rhinos
+                        have access to sufficient food and safe places to live and breed.</li>
+                    <li>Save the Rhino works with local communities to promote sustainable development and alternative
+                        livelihoods that reduce the pressure on natural resources and promote wildlife conservation.
+                    </li>
+                    <li>The organization funds research and monitoring projects to better understand rhino populations,
+                        behavior, and health, and to inform conservation strategies and decision-making.</li>
+                    <li>Save the Rhino raises awareness of the plight of rhinos and the need for conservation through
+                        education and outreach programs, media campaigns, and advocacy efforts.</li>
                 </ul>
             </div>
         </section>
-    
+
         <!--webcam Section-->
         <!-- <section>
             <div>
@@ -75,7 +126,38 @@
         </section> -->
     </main>
 
+
+    <!-- Footer -->
+    <footer>
+        <ul class="media-buttons">
+
+            <li><a href="https://facebook.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://twitter.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
+            </li>
+            <li><a href="https://youtube.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Youtube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></a>
+            </li>
+            <li><a href="https://instagram.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a></li>
+
+        </ul>
+        <a href="#">Terms and conditions</a>
+        <a href="#">Privacy policy</a>
+        <p>2023 &#169; Chronicles-of-Java team February Hackathon Project</p>
+    </footer>
+
     <script src="assets/js/app.js"></script>
+
+    <!-- Linking javascript -->
+    <script src="assets/js/index-script.js"></script>
+    <!-- font awesome script -->
     <script src="https://kit.fontawesome.com/635ea9fe59.js" crossorigin="anonymous"></script>
 </body>
+
+<script src="assets/js/app.js"></script>
+<script src="https://kit.fontawesome.com/635ea9fe59.js" crossorigin="anonymous"></script>
+</body>
+
 </html>

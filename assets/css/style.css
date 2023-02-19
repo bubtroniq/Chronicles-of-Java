@@ -48,6 +48,7 @@ h6 {
     background-attachment: fixed;
     background-position: left;
     background-size: cover;
+    min-height: 20vh;
 }
 
 nav {
@@ -79,7 +80,6 @@ li {
     text-decoration: none;
     color: var(--accent-gold-color);
     font-size: 1rem;
-    font-size: 1.7rem;
     font-weight: 800;
 }
 
@@ -305,12 +305,14 @@ p {
 /* Video of the Day */
 .video-of-day div {
     margin: 0 auto;
+    text-align: center;
 }
 
-.video-of-day h3 {
+.video-of-day h2 {
     margin-top: 0.5rem;
     text-align: center;
     padding-bottom: 0.5rem;
+    color: var(--accent-gold-color);
 }
 
 #iframe-wrapper {
@@ -340,6 +342,10 @@ p {
 
 
 @media screen and (max-width: 500px) {
+
+    body {
+        font-size: 10px;
+    }
 
     nav ul {
         flex-direction: column;
@@ -375,6 +381,7 @@ p {
         display: flex;
         flex-direction: column-reverse;
         background-color: transparent;
+        text-align: center;
     }
 
     .nav-img {
@@ -384,13 +391,19 @@ p {
     .nav-link {
         text-decoration: none;
         color: var(--accent-gold-color);
-        font-size: 1rem;
-        font-size: 1.7rem;
+        font-size: 1em;
         font-weight: 800;
     }
 
     #nav-list {
         margin-left: auto;
+    }
+
+    .container {
+        margin: 0 auto;
+    }
+    #iframe-wrapper {
+        width: 90%;
     }
 }
 
@@ -399,7 +412,7 @@ p {
     /*----------------------------------------------------- Header */
 
     .nav-link {
-        font-size: 1.4rem;
+        font-size: 1rem;
     }
 
     /*----------------------------------------------------- Footer */

@@ -1,36 +1,37 @@
 
-* {
+/* * {
     box-sizing: border-box;
-    /* background: black; */
+    background: black;
     color: white;
     margin: 0;
     padding: 0;
-}
+} */
 
-nav {
+/* nav {
     display: flex;
     justify-content: space-between;
     margin: auto;
     padding: 15px;
     background: black;
-}
+    max-width: 82.5rem;
+} */
 
-nav ul {
+/* nav ul {
     display: flex;
     list-style-type: none;
     max-width: 60%;
     justify-content: space-around;
     font-size: .7em;
-}
+} */
 
 
-nav li {
+/* nav li {
     display: inline-block;
     text-decoration: none;
     padding: .3em .7em;
     flex-shrink: 1;
     margin-top: 20px;
-}
+} */
 
 .nav-link {
     text-decoration: none;
@@ -59,8 +60,8 @@ nav li {
 
 }
 
-.what-box {
-    max-width: 550px;
+section.what-box {
+    max-width: 500px;
     font-size: 20px;
     text-align: center;
     background-color: rgb(128, 128, 128, .3);
