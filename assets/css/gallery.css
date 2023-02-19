@@ -192,3 +192,12 @@ img:hover {
     margin: 100px auto 0;
     overflow: visible;
 }
+@media screen and (max-width: 1020px){
+
+    img {
+        width: 300px;
+        height: 400px;
+        margin-top: 50px;
+        
+    }
+}
