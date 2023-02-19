@@ -67,7 +67,6 @@ ul {
     font-size: .7em;
 }
 
-
 li {
     display: inline-block;
     text-decoration: none;
@@ -99,9 +98,6 @@ li {
 .hamburger:focus {
     outline: 0;
 }
-
-
-
 
 /*----------------------------------------------------- Footer */
 
@@ -188,7 +184,6 @@ h1 {
     margin-top: 10px;
     margin-left: 160px;
     border-radius: 6px;
-
 }
 
 .buttonA {
@@ -255,12 +250,6 @@ h1 {
 .achievements div h3 {
     font-size: 3em;
     padding: .5em;
-}
-
-/* Gallery */
-
-.gallery img {
-    width: 600px;
 }
 
 /* Get involved */
@@ -374,7 +363,6 @@ p {
     ul.show {
         display: flex;
         flex-direction: column;
-
     }
 
     nav {
@@ -384,14 +372,15 @@ p {
         text-align: center;
     }
 
-    .nav-img {
-        display: none;
+    nav div {
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
     }
 
     .nav-link {
         text-decoration: none;
         color: var(--accent-gold-color);
-        font-size: 1em;
         font-weight: 800;
     }
 
@@ -402,6 +391,7 @@ p {
     .container {
         margin: 0 auto;
     }
+
     #iframe-wrapper {
         width: 90%;
     }
