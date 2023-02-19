@@ -145,7 +145,8 @@ Charity information. This setion details all that the charity are doing to aid t
 ![image](https://user-images.githubusercontent.com/104646542/219872281-f8863233-26b4-4fcb-adc4-abb0c3b8d4ea.png)
 
 - **Feature #6**
-Video of the day- needs coding finished then can add
+Video of the day section. In this section is embbeded an iframe displaying youtube videos with rhinos. Everyday a different video is displayed, that being done using JavaScript.
+![image](docs/video-of-the-day.jpg)
 
 - **Feature #7**
 
@@ -161,7 +162,10 @@ The "Gallery". This takes you to an external page when clicked on in the nav bar
 
 - **Feature #9**
 
-About page- needs coding finished then can add
+About page is displaying two new sections, who
+ we are section and what we do section.Here you can find more detailed info about what our organization is doing at the moment and what is planning for the future.
+ ![image](docs/who-we-are.jpg)
+ ![image](docs/what-we-do.jpg)
 
 - **Feature #10**
 
