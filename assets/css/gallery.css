@@ -169,7 +169,8 @@ li a span {
 img {
     width: 700px;
     height: 600px;
-    border-radius: 10px;
+    border-radius: 50px;
+    
 }
 
 img:hover {
