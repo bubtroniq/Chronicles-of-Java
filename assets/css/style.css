@@ -116,7 +116,6 @@ footer {
 }
 
 .media-buttons i {
-    font-size: 2em;
     padding: .5em;
     color: var(--accent-gold-color);
 }
@@ -132,7 +131,6 @@ footer p {
 footer a {
     display: inline-block;
     padding-top: 1em;
-    padding-right: 1em;
     color: var(--main-white-color);
 }
 
@@ -517,6 +515,15 @@ p {
         font-size: 14px;
     }
 
+    footer a,
+    .footer-copyright {
+        font-size: 10px;
+    }
+
+    .media-buttons i {
+        font-size: 1.2rem;
+    }
+
     h2, h3{
         font-size: 24px;
     }
@@ -657,6 +664,11 @@ p {
         font-size: 18px;
     }
 
+    footer a,
+    .footer-copyright {
+        font-size: 12px;
+    }
+
     h2, 
     h3,
     .what-we-do h2 {
@@ -675,6 +687,10 @@ p {
         font-size: 2rem;
     }
 
+    .media-buttons i {
+        font-size: 1.5rem;
+    }
+
     .buttonAA, 
     .buttonDD {
         margin-left: auto;
@@ -686,6 +702,10 @@ p {
 
     .fa-bars:hover {
         cursor: pointer;
+    }
+
+    .media-buttons {
+        font-size: 1.5em
     }
 
     /* about page media queries */
@@ -796,6 +816,10 @@ p {
 
     .media-buttons i {
         font-size: 2.5rem;
+    }
+
+    .footer-copyright {
+        font-size: 14px;
     }
 
     /*----------------------------------------------------- Hero image */
