@@ -529,6 +529,10 @@ p {
         font-size: 30px;
     }
 
+    .media-buttons {
+        font-size: 1.5em
+    }
+
     .buttonA,
     .buttonAA,
     .buttonD, 
@@ -663,6 +667,10 @@ p {
         font-size: 34px;
     }
 
+    .media-buttons {
+        font-size: 2rem;
+    }
+
     .buttonAA, 
     .buttonDD {
         margin-left: auto;
@@ -779,7 +787,7 @@ p {
     /*----------------------------------------------------- Footer */
 
     .media-buttons i {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     /*----------------------------------------------------- Hero image */
