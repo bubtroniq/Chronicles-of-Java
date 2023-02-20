@@ -544,6 +544,10 @@ p {
         font-size: 30px;
     }
 
+    .fa-bars:hover {
+        cursor: pointer;
+    }
+
     /* about page media queries */
     .containerA  {
         margin-left: 0;
@@ -678,6 +682,10 @@ p {
         width: 120px;
         height: 40px;
         font-size: 30px;
+    }
+
+    .fa-bars:hover {
+        cursor: pointer;
     }
 
     /* about page media queries */
